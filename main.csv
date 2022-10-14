@@ -1,0 +1,655 @@
+,Student ID,Name_x,Location,Time,Name_y,Age,Sex,Year of Study,Subject,Height,Hair colour,Societies
+0,2495155L,Mohamed Lloyd,Kelvingrove Park,0338-0716,Mohamed Lloyd,23,Male,5,Medicine,166,#cfe05e,"['Extinction Rebellion', 'Volleyball Society', 'Back to Yoga Society', 'Italian Society']"
+1,2495155L,Mohamed Lloyd,Main Building,1037-1106,Mohamed Lloyd,23,Male,5,Medicine,166,#cfe05e,"['Extinction Rebellion', 'Volleyball Society', 'Back to Yoga Society', 'Italian Society']"
+2,2495155L,Mohamed Lloyd,Wolfson Medical Building,1300-1500,Mohamed Lloyd,23,Male,5,Medicine,166,#cfe05e,"['Extinction Rebellion', 'Volleyball Society', 'Back to Yoga Society', 'Italian Society']"
+3,2495155L,Mohamed Lloyd,Kelvingrove Park,1744-1953,Mohamed Lloyd,23,Male,5,Medicine,166,#cfe05e,"['Extinction Rebellion', 'Volleyball Society', 'Back to Yoga Society', 'Italian Society']"
+4,2470551P,Melanie Patterson,Kelvingrove Park,0301-0533,Melanie Patterson,23,Female,5,Computing Science,166,#a1d640,['Italian Society']
+5,2470551P,Melanie Patterson,Boyd Orr Building,1000-1200,Melanie Patterson,23,Female,5,Computing Science,166,#a1d640,['Italian Society']
+6,2470551P,Melanie Patterson,Boyd Orr Building,1337-1435,Melanie Patterson,23,Female,5,Computing Science,166,#a1d640,['Italian Society']
+7,2470551P,Melanie Patterson,Library,2217-0105,Melanie Patterson,23,Female,5,Computing Science,166,#a1d640,['Italian Society']
+8,2546112P,Eric Parkin,Kelvingrove Park, 0720-0843,Eric Parkin,21,Male,4,Pharmacy,170,#22b7b2,
+9,2546112P,Eric Parkin,Queen Margaret Union,0916-1126,Eric Parkin,21,Male,4,Pharmacy,170,#22b7b2,
+10,2546112P,Eric Parkin,Glasgow University Union,1217-1413,Eric Parkin,21,Male,4,Pharmacy,170,#22b7b2,
+11,2546112P,Eric Parkin,Main Building,1512-1700,Eric Parkin,21,Male,4,Pharmacy,170,#22b7b2,
+12,2453876J,Scott Johnston,Kelvingrove Park,0755-0737,Scott Johnston,24,Male,5,Computing Science,180,#adf931,"{'Volleyball Society', 'Glasgow Latin America Society', 'Motorcycling Society'}"
+13,2453876J,Scott Johnston,Boyd Orr Building,1000-1200,Scott Johnston,24,Male,5,Computing Science,180,#adf931,"{'Volleyball Society', 'Glasgow Latin America Society', 'Motorcycling Society'}"
+14,2453876J,Scott Johnston,Library,1703-1943,Scott Johnston,24,Male,5,Computing Science,180,#adf931,"{'Volleyball Society', 'Glasgow Latin America Society', 'Motorcycling Society'}"
+15,2453876J,Scott Johnston,The Hive,2231-0150,Scott Johnston,24,Male,5,Computing Science,180,#adf931,"{'Volleyball Society', 'Glasgow Latin America Society', 'Motorcycling Society'}"
+16,2549181S,Margaret Saunders,Queen Margaret Union,0843-1052,Margaret Saunders,21,Female,4,Medicine,171,#d1874b,"['Brunei Society', 'Skate Society']"
+17,2549181S,Margaret Saunders,Boyd Orr Building,1105-1230,Margaret Saunders,21,Female,4,Medicine,171,#d1874b,"['Brunei Society', 'Skate Society']"
+18,2549181S,Margaret Saunders,Wolfson Medical Building,1300-1500,Margaret Saunders,21,Female,4,Medicine,171,#d1874b,"['Brunei Society', 'Skate Society']"
+19,2549181S,Margaret Saunders,Wolfson Medical Building,1536-1700,Margaret Saunders,21,Female,4,Medicine,171,#d1874b,"['Brunei Society', 'Skate Society']"
+20,2549181S,Margaret Saunders,Kelvingrove Park,2226-0229,Margaret Saunders,21,Female,4,Medicine,171,#d1874b,"['Brunei Society', 'Skate Society']"
+21,2426424M,Hannah Murphy,Queen Margaret Union,0838-0938,Hannah Murphy,27,Female,5,Medicine,165,#6c4db5,
+22,2426424M,Hannah Murphy,Wolfson Medical Building,1300-1500,Hannah Murphy,27,Female,5,Medicine,165,#6c4db5,
+23,2426424M,Hannah Murphy,Sir Alwyn Williams Building,1624-1700,Hannah Murphy,27,Female,5,Medicine,165,#6c4db5,
+24,2426424M,Hannah Murphy,Boyd Orr Building,1932-2033,Hannah Murphy,27,Female,5,Medicine,165,#6c4db5,
+25,2729563B,Paul Butler,Kelvingrove Park,0824-1037,Paul Butler,26,Male,2,Engineering,175,#2e4ea0,"['Sexpression', 'Esports Society']"
+26,2729563B,Paul Butler,James Watt Building,1000-1300,Paul Butler,26,Male,2,Engineering,175,#2e4ea0,"['Sexpression', 'Esports Society']"
+27,2843155S,Tony Stokes,Boyd Orr Building,0845-1047,Tony Stokes,18,Male,1,Mathematics,175,#75ad22,"['Accapella Society', 'Cymdeithas Cymry Glasgow', 'Grim Reaper Quidditch Club']"
+28,2843155S,Tony Stokes,Main Building,1100-1300,Tony Stokes,18,Male,1,Mathematics,175,#75ad22,"['Accapella Society', 'Cymdeithas Cymry Glasgow', 'Grim Reaper Quidditch Club']"
+29,2843155S,Tony Stokes,St Andrews Building,1309-1525,Tony Stokes,18,Male,1,Mathematics,175,#75ad22,"['Accapella Society', 'Cymdeithas Cymry Glasgow', 'Grim Reaper Quidditch Club']"
+30,2843155S,Tony Stokes,St Andrews Building,1528-1700,Tony Stokes,18,Male,1,Mathematics,175,#75ad22,"['Accapella Society', 'Cymdeithas Cymry Glasgow', 'Grim Reaper Quidditch Club']"
+31,2843155S,Tony Stokes,Glasgow University Union,1855-1912,Tony Stokes,18,Male,1,Mathematics,175,#75ad22,"['Accapella Society', 'Cymdeithas Cymry Glasgow', 'Grim Reaper Quidditch Club']"
+32,2843155S,Tony Stokes,Queen Margaret Union,2015-2142,Tony Stokes,18,Male,1,Mathematics,175,#75ad22,"['Accapella Society', 'Cymdeithas Cymry Glasgow', 'Grim Reaper Quidditch Club']"
+33,2861294M,Georgia Moore,Kelvingrove Park,0845-0930,Georgia Moore,19,Male,1,Business,163,#b5defc,['LGBTQ+ Students Association']
+34,2861294M,Georgia Moore,Adam Smith Building,1000-1100,Georgia Moore,19,Male,1,Business,163,#b5defc,['LGBTQ+ Students Association']
+35,2861294M,Georgia Moore,James Watt Building,1142-1427,Georgia Moore,19,Male,1,Business,163,#b5defc,['LGBTQ+ Students Association']
+36,2481600R,Jacob Richardson,Boyd Orr Building,0850-0907,Jacob Richardson,25,Male,5,Engineering,164,#f9b8e4,
+37,2481600R,Jacob Richardson,James Watt Building,1000-1300,Jacob Richardson,25,Male,5,Engineering,164,#f9b8e4,
+38,2481600R,Jacob Richardson,Kelvingrove Park,1438-1845,Jacob Richardson,25,Male,5,Engineering,164,#f9b8e4,
+39,2647370S,Brenda Steele,Boyd Orr Building,0817-0950,Brenda Steele,25,Female,3,Engineering,170,#43e21b,"['Big Band Society', ""Glasgow Students' Nightline"", 'Cymdeithas Cymry Glasgow']"
+40,2647370S,Brenda Steele,James Watt Building,1000-1300,Brenda Steele,25,Female,3,Engineering,170,#43e21b,"['Big Band Society', ""Glasgow Students' Nightline"", 'Cymdeithas Cymry Glasgow']"
+41,2647370S,Brenda Steele,Main Building,1305-1556,Brenda Steele,25,Female,3,Engineering,170,#43e21b,"['Big Band Society', ""Glasgow Students' Nightline"", 'Cymdeithas Cymry Glasgow']"
+42,2647370S,Brenda Steele,Queen Margaret Union,1602-1733,Brenda Steele,25,Female,3,Engineering,170,#43e21b,"['Big Band Society', ""Glasgow Students' Nightline"", 'Cymdeithas Cymry Glasgow']"
+43,2647370S,Brenda Steele,Queen Margaret Union,1754-1807,Brenda Steele,25,Female,3,Engineering,170,#43e21b,"['Big Band Society', ""Glasgow Students' Nightline"", 'Cymdeithas Cymry Glasgow']"
+44,2510379P,Abdul Parkes,Library,0830-0947,Abdul Parkes,24,Male,4,Business,165,#9dd330,"['Brunei Society', 'Dr Who Society']"
+45,2510379P,Abdul Parkes,Adam Smith Building,1000-1100,Abdul Parkes,24,Male,4,Business,165,#9dd330,"['Brunei Society', 'Dr Who Society']"
+46,2510379P,Abdul Parkes,Adam Smith Building,1114-1317,Abdul Parkes,24,Male,4,Business,165,#9dd330,"['Brunei Society', 'Dr Who Society']"
+47,2510379P,Abdul Parkes,Main Building,1352-1558,Abdul Parkes,24,Male,4,Business,165,#9dd330,"['Brunei Society', 'Dr Who Society']"
+48,2510379P,Abdul Parkes,Wolfson Medical Building,1621-1700,Abdul Parkes,24,Male,4,Business,165,#9dd330,"['Brunei Society', 'Dr Who Society']"
+49,2831841M,Charlotte Matthews,Library,0823-0942,Charlotte Matthews,23,Female,1,Computing Science,172,#fcefb5,"['Glasgow Latin America Society', 'Philosophy Society']"
+50,2831841M,Charlotte Matthews,Boyd Orr Building,1000-1200,Charlotte Matthews,23,Female,1,Computing Science,172,#fcefb5,"['Glasgow Latin America Society', 'Philosophy Society']"
+51,2831841M,Charlotte Matthews,St Andrews Building,1342-1621,Charlotte Matthews,23,Female,1,Computing Science,172,#fcefb5,"['Glasgow Latin America Society', 'Philosophy Society']"
+52,2831841M,Charlotte Matthews,Library,1737-2147,Charlotte Matthews,23,Female,1,Computing Science,172,#fcefb5,"['Glasgow Latin America Society', 'Philosophy Society']"
+53,2547270B,Katie Bell,Kelvingrove Park,0833-0906,Katie Bell,22,Female,4,Business,171,#1851cc,"['Rising Stars', 'Cymdeithas Cymry Glasgow', 'Sexpression', 'Minecraft Society']"
+54,2547270B,Katie Bell,Adam Smith Building,1000-1100,Katie Bell,22,Female,4,Business,171,#1851cc,"['Rising Stars', 'Cymdeithas Cymry Glasgow', 'Sexpression', 'Minecraft Society']"
+55,2547270B,Katie Bell,Main Building,1134-1516,Katie Bell,22,Female,4,Business,171,#1851cc,"['Rising Stars', 'Cymdeithas Cymry Glasgow', 'Sexpression', 'Minecraft Society']"
+56,2547270B,Katie Bell,Glasgow University Union,1645-1842,Katie Bell,22,Female,4,Business,171,#1851cc,"['Rising Stars', 'Cymdeithas Cymry Glasgow', 'Sexpression', 'Minecraft Society']"
+57,2549962J,Teresa Jones,Library,0820-0958,Teresa Jones,24,Female,4,Mathematics,177,#ef43be,['Astronomy Society']
+58,2549962J,Teresa Jones,Main Building,1100-1300,Teresa Jones,24,Female,4,Mathematics,177,#ef43be,['Astronomy Society']
+59,2549962J,Teresa Jones,Adam Smith Building,1433-1700,Teresa Jones,24,Female,4,Mathematics,177,#ef43be,['Astronomy Society']
+60,2549962J,Teresa Jones,Queen Margaret Union,1751-2040,Teresa Jones,24,Female,4,Mathematics,177,#ef43be,['Astronomy Society']
+61,2687223Y,Heather Yates,Kelvingrove Park,0811-0958,Heather Yates,26,Female,3,Engineering,172,#bc3158,"['Esports Society', 'LGBTQ+ Students Association', 'LGBTQ+ Students Association', 'Shrek Society']"
+62,2687223Y,Heather Yates,James Watt Building,1000-1300,Heather Yates,26,Female,3,Engineering,172,#bc3158,"['Esports Society', 'LGBTQ+ Students Association', 'LGBTQ+ Students Association', 'Shrek Society']"
+63,2687223Y,Heather Yates,Sir Alwyn Williams Building,1344-1620,Heather Yates,26,Female,3,Engineering,172,#bc3158,"['Esports Society', 'LGBTQ+ Students Association', 'LGBTQ+ Students Association', 'Shrek Society']"
+64,2687223Y,Heather Yates,Library,1626-1935,Heather Yates,26,Female,3,Engineering,172,#bc3158,"['Esports Society', 'LGBTQ+ Students Association', 'LGBTQ+ Students Association', 'Shrek Society']"
+65,2710339J,Paul Jackson,Queen Margaret Union,0812-1015,Paul Jackson,20,Male,2,Medicine,158,#7181e8,"['Juggling Society', 'Skate Society', 'Clash Of Clans Society', 'FemEng Society']"
+66,2710339J,Paul Jackson,Wolfson Medical Building,1300-1500,Paul Jackson,20,Male,2,Medicine,158,#7181e8,"['Juggling Society', 'Skate Society', 'Clash Of Clans Society', 'FemEng Society']"
+67,2710339J,Paul Jackson,Glasgow University Union,1516-1755,Paul Jackson,20,Male,2,Medicine,158,#7181e8,"['Juggling Society', 'Skate Society', 'Clash Of Clans Society', 'FemEng Society']"
+68,2710339J,Paul Jackson,Kelvingrove Park,1922-2338,Paul Jackson,20,Male,2,Medicine,158,#7181e8,"['Juggling Society', 'Skate Society', 'Clash Of Clans Society', 'FemEng Society']"
+69,2611516B,Carolyn Bond,St Andrews Building,0900-1200,Carolyn Bond,25,Female,3,English Literature,169,#23d620,"['Soup Society', 'Sexpression', 'Dr Who Society']"
+70,2611516B,Carolyn Bond,Wolfson Medical Building,1208-1516,Carolyn Bond,25,Female,3,English Literature,169,#23d620,"['Soup Society', 'Sexpression', 'Dr Who Society']"
+71,2611516B,Carolyn Bond,Adam Smith Building,1624-1700,Carolyn Bond,25,Female,3,English Literature,169,#23d620,"['Soup Society', 'Sexpression', 'Dr Who Society']"
+72,2527287T,Danny Thomas,Main Building,0900-1100,Danny Thomas,23,Male,4,Philosophy,168,#6ae8ce,"['Back to Yoga Society', 'Big Band Society']"
+73,2527287T,Danny Thomas,Queen Margaret Union,1113-1514,Danny Thomas,23,Male,4,Philosophy,168,#6ae8ce,"['Back to Yoga Society', 'Big Band Society']"
+74,2527287T,Danny Thomas,Kelvingrove Park,1558-1906,Danny Thomas,23,Male,4,Philosophy,168,#6ae8ce,"['Back to Yoga Society', 'Big Band Society']"
+75,2527287T,Danny Thomas,Boyd Orr Building,1953-2004,Danny Thomas,23,Male,4,Philosophy,168,#6ae8ce,"['Back to Yoga Society', 'Big Band Society']"
+76,2878087C,Danielle Cox,Kelvin Building,0900-1000,Danielle Cox,24,Female,1,Physics,171,#aefcc1,"['Skate Society', 'Philosophy Society', 'Juggling Society', 'Grim Reaper Quidditch Club']"
+77,2878087C,Danielle Cox,Sir Alwyn Williams Building,1028-1100,Danielle Cox,24,Female,1,Physics,171,#aefcc1,"['Skate Society', 'Philosophy Society', 'Juggling Society', 'Grim Reaper Quidditch Club']"
+78,2878087C,Danielle Cox,Library,1110-1503,Danielle Cox,24,Female,1,Physics,171,#aefcc1,"['Skate Society', 'Philosophy Society', 'Juggling Society', 'Grim Reaper Quidditch Club']"
+79,2878087C,Danielle Cox,Kelvingrove Park,2218-2332,Danielle Cox,24,Female,1,Physics,171,#aefcc1,"['Skate Society', 'Philosophy Society', 'Juggling Society', 'Grim Reaper Quidditch Club']"
+80,2878087C,Danielle Cox,Kelvingrove Park,2336-0041,Danielle Cox,24,Female,1,Physics,171,#aefcc1,"['Skate Society', 'Philosophy Society', 'Juggling Society', 'Grim Reaper Quidditch Club']"
+81,2595487S,Martin Smith,St Andrews Building,0900-1200,Martin Smith,27,Male,4,English Literature,162,#d14336,"['Accapella Society', 'Dr Who Society']"
+82,2595487S,Martin Smith,Adam Smith Building,1346-1700,Martin Smith,27,Male,4,English Literature,162,#d14336,"['Accapella Society', 'Dr Who Society']"
+83,2595487S,Martin Smith,Boyd Orr Building,1903-2100,Martin Smith,27,Male,4,English Literature,162,#d14336,"['Accapella Society', 'Dr Who Society']"
+84,2595487S,Martin Smith,Library,2322-0013,Martin Smith,27,Male,4,English Literature,162,#d14336,"['Accapella Society', 'Dr Who Society']"
+85,2730211T,Chloe Tyler,Kelvingrove Park,0900-0954,Chloe Tyler,19,Female,2,Computing Science,179,#aad668,"['Astronomy Society', 'Skate Society', 'Brunei Society', 'Clash Of Clans Society']"
+86,2730211T,Chloe Tyler,Boyd Orr Building,1000-1200,Chloe Tyler,19,Female,2,Computing Science,179,#aad668,"['Astronomy Society', 'Skate Society', 'Brunei Society', 'Clash Of Clans Society']"
+87,2730211T,Chloe Tyler,Library,1251-1652,Chloe Tyler,19,Female,2,Computing Science,179,#aad668,"['Astronomy Society', 'Skate Society', 'Brunei Society', 'Clash Of Clans Society']"
+88,2730211T,Chloe Tyler,Glasgow University Union,1743-2012,Chloe Tyler,19,Female,2,Computing Science,179,#aad668,"['Astronomy Society', 'Skate Society', 'Brunei Society', 'Clash Of Clans Society']"
+89,2639862H,Stephen Hughes,Kelvin Building,0900-1000,Stephen Hughes,21,Male,3,Physics,176,#7572c9,['Grim Reaper Quidditch Club']
+90,2639862H,Stephen Hughes,Sir Alwyn Williams Building,1113-1315,Stephen Hughes,21,Male,3,Physics,176,#7572c9,['Grim Reaper Quidditch Club']
+91,2639862H,Stephen Hughes,Main Building,1431-1700,Stephen Hughes,21,Male,3,Physics,176,#7572c9,['Grim Reaper Quidditch Club']
+92,2498867L,Susan Little,Main Building,0900-1100,Susan Little,23,Female,5,Philosophy,166,#009e7e,
+93,2498867L,Susan Little,Kelvingrove Park,1119-1422,Susan Little,23,Female,5,Philosophy,166,#009e7e,
+94,2498867L,Susan Little,Glasgow University Union,1558-1808,Susan Little,23,Female,5,Philosophy,166,#009e7e,
+95,2498867L,Susan Little,Queen Margaret Union,1911-2150,Susan Little,23,Female,5,Philosophy,166,#009e7e,
+96,2448977C,Gareth Clayton,Main Building,0900-1100,Gareth Clayton,25,Male,5,Philosophy,175,#2f56d6,"['Motorcycling Society', 'Glasgow Uni Tech Society', ""Glasgow Students' Nightline"", 'Dr Who Society']"
+97,2448977C,Gareth Clayton,St Andrews Building,1253-1520,Gareth Clayton,25,Male,5,Philosophy,175,#2f56d6,"['Motorcycling Society', 'Glasgow Uni Tech Society', ""Glasgow Students' Nightline"", 'Dr Who Society']"
+98,2448977C,Gareth Clayton,Main Building,1644-1700,Gareth Clayton,25,Male,5,Philosophy,175,#2f56d6,"['Motorcycling Society', 'Glasgow Uni Tech Society', ""Glasgow Students' Nightline"", 'Dr Who Society']"
+99,2772741H,Anthony Hughes,Kelvin Building,0900-1000,Anthony Hughes,20,Male,2,Physics,178,#f4cc9a,"['Shrek Society', 'Juggling Society']"
+100,2772741H,Anthony Hughes,Library,1046-1358,Anthony Hughes,20,Male,2,Physics,178,#f4cc9a,"['Shrek Society', 'Juggling Society']"
+101,2772741H,Anthony Hughes,Queen Margaret Union,1450-1806,Anthony Hughes,20,Male,2,Physics,178,#f4cc9a,"['Shrek Society', 'Juggling Society']"
+102,2772741H,Anthony Hughes,Queen Margaret Union,2017-2103,Anthony Hughes,20,Male,2,Physics,178,#f4cc9a,"['Shrek Society', 'Juggling Society']"
+103,2470543S,Barbara Singh,Main Building,0900-1100,Barbara Singh,25,Female,5,Philosophy,169,#84f4b1,"['Minecraft Society', 'Rising Stars', 'Volleyball Society']"
+104,2470543S,Barbara Singh,Adam Smith Building,1103-1324,Barbara Singh,25,Female,5,Philosophy,169,#84f4b1,"['Minecraft Society', 'Rising Stars', 'Volleyball Society']"
+105,2470543S,Barbara Singh,St Andrews Building,1341-1425,Barbara Singh,25,Female,5,Philosophy,169,#84f4b1,"['Minecraft Society', 'Rising Stars', 'Volleyball Society']"
+106,2470543S,Barbara Singh,St Andrews Building,1631-1700,Barbara Singh,25,Female,5,Philosophy,169,#84f4b1,"['Minecraft Society', 'Rising Stars', 'Volleyball Society']"
+107,2470543S,Barbara Singh,Kelvingrove Park,1735-2016,Barbara Singh,25,Female,5,Philosophy,169,#84f4b1,"['Minecraft Society', 'Rising Stars', 'Volleyball Society']"
+108,2875227P,William Palmer,Wolfson Medical Building,0925-1030,William Palmer,17,Male,1,Mathematics,182,#9bc7dd,
+109,2875227P,William Palmer,Main Building,1100-1300,William Palmer,17,Male,1,Mathematics,182,#9bc7dd,
+110,2875227P,William Palmer,Adam Smith Building,1417-1700,William Palmer,17,Male,1,Mathematics,182,#9bc7dd,
+111,2875227P,William Palmer,Queen Margaret Union,1908-2151,William Palmer,17,Male,1,Mathematics,182,#9bc7dd,
+112,2760042P,Amy Powell,Kelvin Building,0900-1000,Amy Powell,22,Female,2,Physics,176,#f7db3b,['Minecraft Society']
+113,2760042P,Amy Powell,Queen Margaret Union,1112-1400,Amy Powell,22,Female,2,Physics,176,#f7db3b,['Minecraft Society']
+114,2521060T,Jacqueline Thomas,St Andrews Building,0900-1200,Jacqueline Thomas,21,Female,4,English Literature,174,#c5f963,"['Sexpression', 'Glasgow Latin America Society', 'Marxist Society', 'Rising Stars']"
+115,2521060T,Jacqueline Thomas,Main Building,1204-1433,Jacqueline Thomas,21,Female,4,English Literature,174,#c5f963,"['Sexpression', 'Glasgow Latin America Society', 'Marxist Society', 'Rising Stars']"
+116,2521060T,Jacqueline Thomas,Wolfson Medical Building,1437-1511,Jacqueline Thomas,21,Female,4,English Literature,174,#c5f963,"['Sexpression', 'Glasgow Latin America Society', 'Marxist Society', 'Rising Stars']"
+117,2521060T,Jacqueline Thomas,Wolfson Medical Building,1518-1700,Jacqueline Thomas,21,Female,4,English Literature,174,#c5f963,"['Sexpression', 'Glasgow Latin America Society', 'Marxist Society', 'Rising Stars']"
+118,2453097L,Joanna Lynch,St Andrews Building,0900-1200,Joanna Lynch,23,Female,5,English Literature,174,#cc12e5,"['Philosophy Society', 'Italian Society']"
+119,2453097L,Joanna Lynch,Library,1202-1652,Joanna Lynch,23,Female,5,English Literature,174,#cc12e5,"['Philosophy Society', 'Italian Society']"
+120,2453097L,Joanna Lynch,Queen Margaret Union,2052-2222,Joanna Lynch,23,Female,5,English Literature,174,#cc12e5,"['Philosophy Society', 'Italian Society']"
+121,2544001M,Fiona Miah,Kelvin Building,0900-1000,Fiona Miah,22,Female,4,Physics,176,#e0983a,"['Skate Society', 'Juggling Society']"
+122,2544001M,Fiona Miah,Library,1319-1546,Fiona Miah,22,Female,4,Physics,176,#e0983a,"['Skate Society', 'Juggling Society']"
+123,2544001M,Fiona Miah,St Andrews Building,1612-1700,Fiona Miah,22,Female,4,Physics,176,#e0983a,"['Skate Society', 'Juggling Society']"
+124,2544001M,Fiona Miah,Queen Margaret Union,1938-2223,Fiona Miah,22,Female,4,Physics,176,#e0983a,"['Skate Society', 'Juggling Society']"
+125,2739531T,Hollie Taylor,St Andrews Building,0900-1200,Hollie Taylor,18,Female,2,English Literature,172,#a3f99d,['FemEng Society']
+126,2739531T,Hollie Taylor,St Andrews Building,1248-1434,Hollie Taylor,18,Female,2,English Literature,172,#a3f99d,['FemEng Society']
+127,2739531T,Hollie Taylor,Queen Margaret Union,1633-1905,Hollie Taylor,18,Female,2,English Literature,172,#a3f99d,['FemEng Society']
+128,2739531T,Hollie Taylor,Glasgow University Union,2219-2300,Hollie Taylor,18,Female,2,English Literature,172,#a3f99d,['FemEng Society']
+129,2739531T,Hollie Taylor,Library,2354-0200,Hollie Taylor,18,Female,2,English Literature,172,#a3f99d,['FemEng Society']
+130,2714499B,Anna Butler,Main Building,0900-1100,Anna Butler,26,Female,2,Philosophy,177,#1dba95,
+131,2714499B,Anna Butler,Wolfson Medical Building,1119-1552,Anna Butler,26,Female,2,Philosophy,177,#1dba95,
+132,2714499B,Anna Butler,St Andrews Building,1558-1638,Anna Butler,26,Female,2,Philosophy,177,#1dba95,
+133,2714499B,Anna Butler,Sir Alwyn Williams Building,1650-1700,Anna Butler,26,Female,2,Philosophy,177,#1dba95,
+134,2683781G,Toby Grant,Kelvin Building,0900-1000,Toby Grant,25,Male,3,Physics,170,#d44cdb,['Brunei Society']
+135,2683781G,Toby Grant,Queen Margaret Union,1120-1402,Toby Grant,25,Male,3,Physics,170,#d44cdb,['Brunei Society']
+136,2683781G,Toby Grant,Library,1407-1629,Toby Grant,25,Male,3,Physics,170,#d44cdb,['Brunei Society']
+137,2683781G,Toby Grant,Kelvingrove Park,1705-1842,Toby Grant,25,Male,3,Physics,170,#d44cdb,['Brunei Society']
+138,2683781G,Toby Grant,Boyd Orr Building,1901-2100,Toby Grant,25,Male,3,Physics,170,#d44cdb,['Brunei Society']
+139,2786843M,Abdul Murphy,St Andrews Building,0900-1200,Abdul Murphy,24,Male,2,English Literature,167,#e079db,"['Bad Movie Society', 'Grim Reaper Quidditch Club', 'Sexpression', 'Brunei Society']"
+140,2786843M,Abdul Murphy,Sir Alwyn Williams Building,1208-1302,Abdul Murphy,24,Male,2,English Literature,167,#e079db,"['Bad Movie Society', 'Grim Reaper Quidditch Club', 'Sexpression', 'Brunei Society']"
+141,2786843M,Abdul Murphy,Queen Maragret Building,1353-1527,Abdul Murphy,24,Male,2,English Literature,167,#e079db,"['Bad Movie Society', 'Grim Reaper Quidditch Club', 'Sexpression', 'Brunei Society']"
+142,2786843M,Abdul Murphy,Library,1843-1933,Abdul Murphy,24,Male,2,English Literature,167,#e079db,"['Bad Movie Society', 'Grim Reaper Quidditch Club', 'Sexpression', 'Brunei Society']"
+143,2786843M,Abdul Murphy,Boyd Orr Building,2208-2219,Abdul Murphy,24,Male,2,English Literature,167,#e079db,"['Bad Movie Society', 'Grim Reaper Quidditch Club', 'Sexpression', 'Brunei Society']"
+144,2665521F,Suzanne Fox,Kelvin Building,0900-1000,Suzanne Fox,21,Female,3,Physics,167,#fc79a0,"['Cymdeithas Cymry Glasgow', 'Pole Dancing Club']"
+145,2665521F,Suzanne Fox,St Andrews Building,1049-1345,Suzanne Fox,21,Female,3,Physics,167,#fc79a0,"['Cymdeithas Cymry Glasgow', 'Pole Dancing Club']"
+146,2665521F,Suzanne Fox,Queen Margaret Union,1423-1826,Suzanne Fox,21,Female,3,Physics,167,#fc79a0,"['Cymdeithas Cymry Glasgow', 'Pole Dancing Club']"
+147,2884930W,Ross Wood,St Andrews Building,0900-1200,Ross Wood,21,Male,1,English Literature,172,#9399d8,
+148,2884930W,Ross Wood,Queen Margaret Union,1213-1602,Ross Wood,21,Male,1,English Literature,172,#9399d8,
+149,2644470C,Fiona Chapman,Adam Smith Building,0957-1003,Fiona Chapman,21,Female,3,Mathematics,160,#1e50ce,['Back to Yoga Society']
+150,2644470C,Fiona Chapman,Main Building,1100-1300,Fiona Chapman,21,Female,3,Mathematics,160,#1e50ce,['Back to Yoga Society']
+151,2644470C,Fiona Chapman,Sir Alwyn Williams Building,1309-1405,Fiona Chapman,21,Female,3,Mathematics,160,#1e50ce,['Back to Yoga Society']
+152,2644470C,Fiona Chapman,Queen Margaret Union,1437-1855,Fiona Chapman,21,Female,3,Mathematics,160,#1e50ce,['Back to Yoga Society']
+153,2644470C,Fiona Chapman,The Hive,2234-0052,Fiona Chapman,21,Female,3,Mathematics,160,#1e50ce,['Back to Yoga Society']
+154,2728016B,Sarah Bradshaw,Library,0922-1011,Sarah Bradshaw,19,Female,2,Medicine,163,#5214fc,"['Italian Society', 'Rising Stars', 'Cymdeithas Cymry Glasgow', 'Glasgow Latin America Society']"
+155,2728016B,Sarah Bradshaw,Wolfson Medical Building,1300-1500,Sarah Bradshaw,19,Female,2,Medicine,163,#5214fc,"['Italian Society', 'Rising Stars', 'Cymdeithas Cymry Glasgow', 'Glasgow Latin America Society']"
+156,2728016B,Sarah Bradshaw,Glasgow University Union,1508-1956,Sarah Bradshaw,19,Female,2,Medicine,163,#5214fc,"['Italian Society', 'Rising Stars', 'Cymdeithas Cymry Glasgow', 'Glasgow Latin America Society']"
+157,2728016B,Sarah Bradshaw,Glasgow University Union,2217-2300,Sarah Bradshaw,19,Female,2,Medicine,163,#5214fc,"['Italian Society', 'Rising Stars', 'Cymdeithas Cymry Glasgow', 'Glasgow Latin America Society']"
+158,2624636S,Henry Sharp,Kelvin Building,0900-1000,Henry Sharp,21,Male,3,Physics,165,#eac5a1,"['Volleyball Society', 'Pole Dancing Club', 'Volleyball Society']"
+159,2624636S,Henry Sharp,Kelvingrove Park,1025-1130,Henry Sharp,21,Male,3,Physics,165,#eac5a1,"['Volleyball Society', 'Pole Dancing Club', 'Volleyball Society']"
+160,2624636S,Henry Sharp,Library,1350-1513,Henry Sharp,21,Male,3,Physics,165,#eac5a1,"['Volleyball Society', 'Pole Dancing Club', 'Volleyball Society']"
+161,2624636S,Henry Sharp,James Watt Building,1555-1700,Henry Sharp,21,Male,3,Physics,165,#eac5a1,"['Volleyball Society', 'Pole Dancing Club', 'Volleyball Society']"
+162,2433194F,Teresa Ford,Main Building,0900-1100,Teresa Ford,24,Female,5,Philosophy,177,#858e01,"['Astronomy Society', 'Grim Reaper Quidditch Club', 'Glasgow Latin America Society']"
+163,2433194F,Teresa Ford,Queen Margaret Union,1132-1259,Teresa Ford,24,Female,5,Philosophy,177,#858e01,"['Astronomy Society', 'Grim Reaper Quidditch Club', 'Glasgow Latin America Society']"
+164,2433194F,Teresa Ford,Main Building,1331-1406,Teresa Ford,24,Female,5,Philosophy,177,#858e01,"['Astronomy Society', 'Grim Reaper Quidditch Club', 'Glasgow Latin America Society']"
+165,2433194F,Teresa Ford,Glasgow University Union,1437-1628,Teresa Ford,24,Female,5,Philosophy,177,#858e01,"['Astronomy Society', 'Grim Reaper Quidditch Club', 'Glasgow Latin America Society']"
+166,2433194F,Teresa Ford,Main Building,1658-1700,Teresa Ford,24,Female,5,Philosophy,177,#858e01,"['Astronomy Society', 'Grim Reaper Quidditch Club', 'Glasgow Latin America Society']"
+167,2433194F,Teresa Ford,Kelvingrove Park,2231-2319,Teresa Ford,24,Female,5,Philosophy,177,#858e01,"['Astronomy Society', 'Grim Reaper Quidditch Club', 'Glasgow Latin America Society']"
+168,2797619M,Russell Matthews,Kelvin Building,0900-1000,Russell Matthews,23,Male,2,Physics,153,#f2d560,"['Motorcycling Society', 'Soup Society', 'Minecraft Society', 'Brunei Society']"
+169,2797619M,Russell Matthews,Glasgow University Union,1042-1357,Russell Matthews,23,Male,2,Physics,153,#f2d560,"['Motorcycling Society', 'Soup Society', 'Minecraft Society', 'Brunei Society']"
+170,2797619M,Russell Matthews,Kelvingrove Park,1455-1836,Russell Matthews,23,Male,2,Physics,153,#f2d560,"['Motorcycling Society', 'Soup Society', 'Minecraft Society', 'Brunei Society']"
+171,2797619M,Russell Matthews,Glasgow University Union,1907-2140,Russell Matthews,23,Male,2,Physics,153,#f2d560,"['Motorcycling Society', 'Soup Society', 'Minecraft Society', 'Brunei Society']"
+172,2784969D,Kimberley Dickinson,Kelvin Building,0900-1000,Kimberley Dickinson,19,Female,2,Physics,164,#001384,['Skate Society']
+173,2784969D,Kimberley Dickinson,Queen Margaret Union,1136-1419,Kimberley Dickinson,19,Female,2,Physics,164,#001384,['Skate Society']
+174,2784969D,Kimberley Dickinson,James Watt Building,1438-1700,Kimberley Dickinson,19,Female,2,Physics,164,#001384,['Skate Society']
+175,2537493D,Nathan Davis,Sir Alwyn Williams Building,0925-1100,Nathan Davis,22,Male,4,Mathematics,170,#f011fc,['Minecraft Society']
+176,2537493D,Nathan Davis,Main Building,1100-1300,Nathan Davis,22,Male,4,Mathematics,170,#f011fc,['Minecraft Society']
+177,2537493D,Nathan Davis,Queen Margaret Union,1344-1626,Nathan Davis,22,Male,4,Mathematics,170,#f011fc,['Minecraft Society']
+178,2537493D,Nathan Davis,Boyd Orr Building,1716-2100,Nathan Davis,22,Male,4,Mathematics,170,#f011fc,['Minecraft Society']
+179,2537493D,Nathan Davis,Library,2255-0200,Nathan Davis,22,Male,4,Mathematics,170,#f011fc,['Minecraft Society']
+180,2798507C,Valerie Cross,Main Building,0900-1100,Valerie Cross,24,Female,2,Philosophy,184,#e5ffa0,
+181,2798507C,Valerie Cross,Queen Margaret Union,1141-1212,Valerie Cross,24,Female,2,Philosophy,184,#e5ffa0,
+182,2798507C,Valerie Cross,St Andrews Building,1340-1614,Valerie Cross,24,Female,2,Philosophy,184,#e5ffa0,
+183,2798507C,Valerie Cross,Queen Margaret Union,1705-2020,Valerie Cross,24,Female,2,Philosophy,184,#e5ffa0,
+184,2642933A,Alan Allen,Kelvin Building,0900-1000,Alan Allen,21,Male,3,Physics,162,#63a7c6,['Minecraft Society']
+185,2642933A,Alan Allen,Main Building,1118-1328,Alan Allen,21,Male,3,Physics,162,#63a7c6,['Minecraft Society']
+186,2642933A,Alan Allen,Sir Alwyn Williams Building,1352-1645,Alan Allen,21,Male,3,Physics,162,#63a7c6,['Minecraft Society']
+187,2642933A,Alan Allen,Queen Margaret Union,1827-1912,Alan Allen,21,Male,3,Physics,162,#63a7c6,['Minecraft Society']
+188,2642933A,Alan Allen,Kelvingrove Park,2318-0041,Alan Allen,21,Male,3,Physics,162,#63a7c6,['Minecraft Society']
+189,2661827A,Rita Arnold,Kelvin Building,0900-1000,Rita Arnold,24,Female,3,Physics,172,#c99dea,"['FemEng Society', 'Bad Movie Society', ""Glasgow Students' Nightline""]"
+190,2661827A,Rita Arnold,Library,1048-1137,Rita Arnold,24,Female,3,Physics,172,#c99dea,"['FemEng Society', 'Bad Movie Society', ""Glasgow Students' Nightline""]"
+191,2661827A,Rita Arnold,Library,1205-1400,Rita Arnold,24,Female,3,Physics,172,#c99dea,"['FemEng Society', 'Bad Movie Society', ""Glasgow Students' Nightline""]"
+192,2661827A,Rita Arnold,Glasgow University Union,1538-1713,Rita Arnold,24,Female,3,Physics,172,#c99dea,"['FemEng Society', 'Bad Movie Society', ""Glasgow Students' Nightline""]"
+193,2661827A,Rita Arnold,Glasgow University Union,2108-2300,Rita Arnold,24,Female,3,Physics,172,#c99dea,"['FemEng Society', 'Bad Movie Society', ""Glasgow Students' Nightline""]"
+194,2661827A,Rita Arnold,The Hive,2338-0200,Rita Arnold,24,Female,3,Physics,172,#c99dea,"['FemEng Society', 'Bad Movie Society', ""Glasgow Students' Nightline""]"
+195,2893827J,Elliott Jones,St Andrews Building,0900-1200,Elliott Jones,18,Male,1,English Literature,165,#ea4b98,['Back to Yoga Society']
+196,2893827J,Elliott Jones,Wolfson Medical Building,1229-1638,Elliott Jones,18,Male,1,English Literature,165,#ea4b98,['Back to Yoga Society']
+197,2893827J,Elliott Jones,Queen Margaret Union,1737-2144,Elliott Jones,18,Male,1,English Literature,165,#ea4b98,['Back to Yoga Society']
+198,2893827J,Elliott Jones,Queen Margaret Union,2155-2300,Elliott Jones,18,Male,1,English Literature,165,#ea4b98,['Back to Yoga Society']
+199,2519606S,Laura Skinner,St Andrews Building,0900-1200,Laura Skinner,25,Male,4,English Literature,170,#db3eef,"['Astrology Society', 'Sexpression', 'Esports Society', 'Grim Reaper Quidditch Club']"
+200,2519606S,Laura Skinner,Adam Smith Building,1444-1520,Laura Skinner,25,Male,4,English Literature,170,#db3eef,"['Astrology Society', 'Sexpression', 'Esports Society', 'Grim Reaper Quidditch Club']"
+201,2519606S,Laura Skinner,Queen Margaret Union,1638-1903,Laura Skinner,25,Male,4,English Literature,170,#db3eef,"['Astrology Society', 'Sexpression', 'Esports Society', 'Grim Reaper Quidditch Club']"
+202,2519606S,Laura Skinner,Kelvingrove Park,2307-0042,Laura Skinner,25,Male,4,English Literature,170,#db3eef,"['Astrology Society', 'Sexpression', 'Esports Society', 'Grim Reaper Quidditch Club']"
+203,2678631W,Sandra Wilson,Main Building,0900-1100,Sandra Wilson,25,Female,3,Philosophy,165,#b1ecef,"['Pole Dancing Club', 'Italian Society']"
+204,2678631W,Sandra Wilson,St Andrews Building,1119-1245,Sandra Wilson,25,Female,3,Philosophy,165,#b1ecef,"['Pole Dancing Club', 'Italian Society']"
+205,2678631W,Sandra Wilson,Glasgow University Union,1357-1544,Sandra Wilson,25,Female,3,Philosophy,165,#b1ecef,"['Pole Dancing Club', 'Italian Society']"
+206,2678631W,Sandra Wilson,Sir Alwyn Williams Building,1601-1700,Sandra Wilson,25,Female,3,Philosophy,165,#b1ecef,"['Pole Dancing Club', 'Italian Society']"
+207,2678631W,Sandra Wilson,Glasgow University Union,1852-1950,Sandra Wilson,25,Female,3,Philosophy,165,#b1ecef,"['Pole Dancing Club', 'Italian Society']"
+208,2678631W,Sandra Wilson,Queen Margaret Union,2044-2110,Sandra Wilson,25,Female,3,Philosophy,165,#b1ecef,"['Pole Dancing Club', 'Italian Society']"
+209,2678631W,Sandra Wilson,Queen Margaret Union,2234-2300,Sandra Wilson,25,Female,3,Philosophy,165,#b1ecef,"['Pole Dancing Club', 'Italian Society']"
+210,2541160O,Gerard Oliver,St Andrews Building,0900-1200,Gerard Oliver,25,Male,4,English Literature,172,#e2b16c,
+211,2541160O,Gerard Oliver,Kelvingrove Park,1259-1356,Gerard Oliver,25,Male,4,English Literature,172,#e2b16c,
+212,2541160O,Gerard Oliver,Main Building,1359-1556,Gerard Oliver,25,Male,4,English Literature,172,#e2b16c,
+213,2541160O,Gerard Oliver,Boyd Orr Building,1718-1941,Gerard Oliver,25,Male,4,English Literature,172,#e2b16c,
+214,2522843B,Olivia Baker,Main Building,0900-1100,Olivia Baker,25,Male,4,Philosophy,170,#9bf2d3,
+215,2522843B,Olivia Baker,St Andrews Building,1142-1431,Olivia Baker,25,Male,4,Philosophy,170,#9bf2d3,
+216,2522843B,Olivia Baker,James Watt Building,1535-1700,Olivia Baker,25,Male,4,Philosophy,170,#9bf2d3,
+217,2522843B,Olivia Baker,Boyd Orr Building,1927-2022,Olivia Baker,25,Male,4,Philosophy,170,#9bf2d3,
+218,2522843B,Olivia Baker,Kelvingrove Park,2257-0208,Olivia Baker,25,Male,4,Philosophy,170,#9bf2d3,
+219,2681806C,William Cook,Main Building,0900-1100,William Cook,23,Male,3,Philosophy,178,#31d67e,"['Grim Reaper Quidditch Club', 'Astronomy Society']"
+220,2681806C,William Cook,Kelvingrove Park,1104-1347,William Cook,23,Male,3,Philosophy,178,#31d67e,"['Grim Reaper Quidditch Club', 'Astronomy Society']"
+221,2681806C,William Cook,Wolfson Medical Building,1403-1700,William Cook,23,Male,3,Philosophy,178,#31d67e,"['Grim Reaper Quidditch Club', 'Astronomy Society']"
+222,2681806C,William Cook,Queen Margaret Union,1945-2300,William Cook,23,Male,3,Philosophy,178,#31d67e,"['Grim Reaper Quidditch Club', 'Astronomy Society']"
+223,2465684B,Gerald Bell,Main Building,0900-1100,Gerald Bell,23,Male,5,Philosophy,176,#e8ffaf,
+224,2465684B,Gerald Bell,James Watt Building,1112-1431,Gerald Bell,23,Male,5,Philosophy,176,#e8ffaf,
+225,2465684B,Gerald Bell,Glasgow University Union,1508-1711,Gerald Bell,23,Male,5,Philosophy,176,#e8ffaf,
+226,2465684B,Gerald Bell,Kelvingrove Park,1733-2157,Gerald Bell,23,Male,5,Philosophy,176,#e8ffaf,
+227,2465684B,Gerald Bell,The Hive,2217-0058,Gerald Bell,23,Male,5,Philosophy,176,#e8ffaf,
+228,2763908W,Owen Webster,Main Building,0900-1100,Owen Webster,19,Male,2,Philosophy,169,#bf2b26,"['Clash Of Clans Society', 'Astrology Society']"
+229,2763908W,Owen Webster,Wolfson Medical Building,1155-1341,Owen Webster,19,Male,2,Philosophy,169,#bf2b26,"['Clash Of Clans Society', 'Astrology Society']"
+230,2763908W,Owen Webster,Main Building,1442-1700,Owen Webster,19,Male,2,Philosophy,169,#bf2b26,"['Clash Of Clans Society', 'Astrology Society']"
+231,2763908W,Owen Webster,Library,1827-2019,Owen Webster,19,Male,2,Philosophy,169,#bf2b26,"['Clash Of Clans Society', 'Astrology Society']"
+232,2558094B,Robin Brown,Main Building,0900-1100,Robin Brown,20,Male,4,Philosophy,175,#bc6242,"['Bad Movie Society', 'Skate Society', 'Skate Society']"
+233,2558094B,Robin Brown,Library,1206-1355,Robin Brown,20,Male,4,Philosophy,175,#bc6242,"['Bad Movie Society', 'Skate Society', 'Skate Society']"
+234,2558094B,Robin Brown,James Watt Building,1401-1700,Robin Brown,20,Male,4,Philosophy,175,#bc6242,"['Bad Movie Society', 'Skate Society', 'Skate Society']"
+235,2764614J,Annette James,Kelvin Building,0900-1000,Annette James,23,Female,2,Physics,181,#fcc8bd,['Philosophy Society']
+236,2764614J,Annette James,Boyd Orr Building,1116-1500,Annette James,23,Female,2,Physics,181,#fcc8bd,['Philosophy Society']
+237,2764614J,Annette James,Library,1511-1610,Annette James,23,Female,2,Physics,181,#fcc8bd,['Philosophy Society']
+238,2764614J,Annette James,Glasgow University Union,1632-1800,Annette James,23,Female,2,Physics,181,#fcc8bd,['Philosophy Society']
+239,2764614J,Annette James,Kelvingrove Park,2011-2144,Annette James,23,Female,2,Physics,181,#fcc8bd,['Philosophy Society']
+240,2764614J,Annette James,Library,2343-0132,Annette James,23,Female,2,Physics,181,#fcc8bd,['Philosophy Society']
+241,2580207S,Neil Stone,Library,0913-1027,Neil Stone,22,Male,4,Mathematics,170,#a7f9b6,"['Pole Dancing Club', 'Esports Society', 'Italian Society', 'Shrek Society']"
+242,2580207S,Neil Stone,Main Building,1100-1300,Neil Stone,22,Male,4,Mathematics,170,#a7f9b6,"['Pole Dancing Club', 'Esports Society', 'Italian Society', 'Shrek Society']"
+243,2580207S,Neil Stone,Boyd Orr Building,1525-1908,Neil Stone,22,Male,4,Mathematics,170,#a7f9b6,"['Pole Dancing Club', 'Esports Society', 'Italian Society', 'Shrek Society']"
+244,2580207S,Neil Stone,Glasgow University Union,2217-2300,Neil Stone,22,Male,4,Mathematics,170,#a7f9b6,"['Pole Dancing Club', 'Esports Society', 'Italian Society', 'Shrek Society']"
+245,2445601S,Keith Saunders,St Andrews Building,0900-1200,Keith Saunders,23,Male,5,English Literature,174,#b9ef6e,"['Clash Of Clans Society', 'Brunei Society', 'Glasgow Uni Tech Society']"
+246,2445601S,Keith Saunders,Library,1215-1516,Keith Saunders,23,Male,5,English Literature,174,#b9ef6e,"['Clash Of Clans Society', 'Brunei Society', 'Glasgow Uni Tech Society']"
+247,2445601S,Keith Saunders,Sir Alwyn Williams Building,1547-1654,Keith Saunders,23,Male,5,English Literature,174,#b9ef6e,"['Clash Of Clans Society', 'Brunei Society', 'Glasgow Uni Tech Society']"
+248,2445601S,Keith Saunders,Boyd Orr Building,1829-2100,Keith Saunders,23,Male,5,English Literature,174,#b9ef6e,"['Clash Of Clans Society', 'Brunei Society', 'Glasgow Uni Tech Society']"
+249,2445601S,Keith Saunders,Glasgow University Union,2258-2300,Keith Saunders,23,Male,5,English Literature,174,#b9ef6e,"['Clash Of Clans Society', 'Brunei Society', 'Glasgow Uni Tech Society']"
+250,2834518P,Brenda Perry,Main Building,0900-1100,Brenda Perry,23,Female,1,Philosophy,171,#7cc115,"['Grim Reaper Quidditch Club', 'Esports Society', 'Volleyball Society', 'Minecraft Society']"
+251,2834518P,Brenda Perry,Sir Alwyn Williams Building,1157-1503,Brenda Perry,23,Female,1,Philosophy,171,#7cc115,"['Grim Reaper Quidditch Club', 'Esports Society', 'Volleyball Society', 'Minecraft Society']"
+252,2834518P,Brenda Perry,Wolfson Medical Building,1535-1700,Brenda Perry,23,Female,1,Philosophy,171,#7cc115,"['Grim Reaper Quidditch Club', 'Esports Society', 'Volleyball Society', 'Minecraft Society']"
+253,2834518P,Brenda Perry,Glasgow University Union,1823-2259,Brenda Perry,23,Female,1,Philosophy,171,#7cc115,"['Grim Reaper Quidditch Club', 'Esports Society', 'Volleyball Society', 'Minecraft Society']"
+254,2438411P,Kerry Pearce,Adam Smith Building,0943-1047,Kerry Pearce,22,Female,5,Mathematics,168,#9bc5dd,"['Rising Stars', 'Motorcycling Society']"
+255,2438411P,Kerry Pearce,Main Building,1100-1300,Kerry Pearce,22,Female,5,Mathematics,168,#9bc5dd,"['Rising Stars', 'Motorcycling Society']"
+256,2438411P,Kerry Pearce,Main Building,1329-1406,Kerry Pearce,22,Female,5,Mathematics,168,#9bc5dd,"['Rising Stars', 'Motorcycling Society']"
+257,2438411P,Kerry Pearce,St Andrews Building,1425-1700,Kerry Pearce,22,Female,5,Mathematics,168,#9bc5dd,"['Rising Stars', 'Motorcycling Society']"
+258,2438411P,Kerry Pearce,Kelvingrove Park,2340-0115,Kerry Pearce,22,Female,5,Mathematics,168,#9bc5dd,"['Rising Stars', 'Motorcycling Society']"
+259,2464353G,Shirley Griffiths,Main Building,0900-1100,Shirley Griffiths,24,Female,5,Philosophy,161,#c4ffff,"['Astronomy Society', 'FemEng Society', 'Philosophy Society']"
+260,2464353G,Shirley Griffiths,Kelvingrove Park,1149-1517,Shirley Griffiths,24,Female,5,Philosophy,161,#c4ffff,"['Astronomy Society', 'FemEng Society', 'Philosophy Society']"
+261,2464353G,Shirley Griffiths,Wolfson Medical Building,1619-1700,Shirley Griffiths,24,Female,5,Philosophy,161,#c4ffff,"['Astronomy Society', 'FemEng Society', 'Philosophy Society']"
+262,2464353G,Shirley Griffiths,Queen Margaret Union,2058-2300,Shirley Griffiths,24,Female,5,Philosophy,161,#c4ffff,"['Astronomy Society', 'FemEng Society', 'Philosophy Society']"
+263,2447060H,Sarah Harvey,Glasgow University Union,0919-1020,Sarah Harvey,23,Female,5,Medicine,175,#a9f291,['Accapella Society']
+264,2447060H,Sarah Harvey,St Andrews Building,1127-1249,Sarah Harvey,23,Female,5,Medicine,175,#a9f291,['Accapella Society']
+265,2447060H,Sarah Harvey,Wolfson Medical Building,1300-1500,Sarah Harvey,23,Female,5,Medicine,175,#a9f291,['Accapella Society']
+266,2447060H,Sarah Harvey,Sir Alwyn Williams Building,1630-1700,Sarah Harvey,23,Female,5,Medicine,175,#a9f291,['Accapella Society']
+267,2798501F,Oliver Ford,Main Building,0900-1100,Oliver Ford,20,Male,2,Philosophy,174,#df09f7,"['FemEng Society', 'Back to Yoga Society']"
+268,2798501F,Oliver Ford,St Andrews Building,1157-1335,Oliver Ford,20,Male,2,Philosophy,174,#df09f7,"['FemEng Society', 'Back to Yoga Society']"
+269,2798501F,Oliver Ford,James Watt Building,1435-1623,Oliver Ford,20,Male,2,Philosophy,174,#df09f7,"['FemEng Society', 'Back to Yoga Society']"
+270,2798501F,Oliver Ford,Kelvingrove Park,1825-1920,Oliver Ford,20,Male,2,Philosophy,174,#df09f7,"['FemEng Society', 'Back to Yoga Society']"
+271,2868646W,Howard Woodward,Main Building,0900-1100,Howard Woodward,25,Male,1,Philosophy,172,#e6ef7c,"['LGBTQ+ Students Association', 'Shrek Society']"
+272,2868646W,Howard Woodward,Sir Alwyn Williams Building,1221-1606,Howard Woodward,25,Male,1,Philosophy,172,#e6ef7c,"['LGBTQ+ Students Association', 'Shrek Society']"
+273,2868646W,Howard Woodward,Boyd Orr Building,1659-1739,Howard Woodward,25,Male,1,Philosophy,172,#e6ef7c,"['LGBTQ+ Students Association', 'Shrek Society']"
+274,2868646W,Howard Woodward,Glasgow University Union,1749-2107,Howard Woodward,25,Male,1,Philosophy,172,#e6ef7c,"['LGBTQ+ Students Association', 'Shrek Society']"
+275,2834184T,Sandra Taylor,Kelvin Building,0900-1000,Sandra Taylor,18,Female,1,Physics,170,#d0f751,['Marxist Society']
+276,2834184T,Sandra Taylor,Main Building,1229-1458,Sandra Taylor,18,Female,1,Physics,170,#d0f751,['Marxist Society']
+277,2834184T,Sandra Taylor,Wolfson Medical Building,1506-1700,Sandra Taylor,18,Female,1,Physics,170,#d0f751,['Marxist Society']
+278,2494714C,Nigel Collins,Kelvin Building,0900-1000,Nigel Collins,22,Male,5,Physics,169,#3997db,
+279,2494714C,Nigel Collins,Adam Smith Building,1014-1318,Nigel Collins,22,Male,5,Physics,169,#3997db,
+280,2494714C,Nigel Collins,Sir Alwyn Williams Building,1359-1700,Nigel Collins,22,Male,5,Physics,169,#3997db,
+281,2494714C,Nigel Collins,Kelvingrove Park,2315-0013,Nigel Collins,22,Male,5,Physics,169,#3997db,
+282,2761310W,Keith Wood,St Andrews Building,0900-1200,Keith Wood,22,Male,2,English Literature,169,#3897a5,
+283,2761310W,Keith Wood,Library,1232-1454,Keith Wood,22,Male,2,English Literature,169,#3897a5,
+284,2761310W,Keith Wood,Library,1549-1604,Keith Wood,22,Male,2,English Literature,169,#3897a5,
+285,2761310W,Keith Wood,Library,2203-0200,Keith Wood,22,Male,2,English Literature,169,#3897a5,
+286,2831410G,Amelia Green,Main Building,0900-1100,Amelia Green,20,Female,1,Philosophy,174,#ed8e89,"['LGBTQ+ Students Association', 'Glasgow Uni Tech Society', 'Accapella Society', 'Philosophy Society']"
+287,2831410G,Amelia Green,Library,1127-1308,Amelia Green,20,Female,1,Philosophy,174,#ed8e89,"['LGBTQ+ Students Association', 'Glasgow Uni Tech Society', 'Accapella Society', 'Philosophy Society']"
+288,2831410G,Amelia Green,Main Building,1504-1700,Amelia Green,20,Female,1,Philosophy,174,#ed8e89,"['LGBTQ+ Students Association', 'Glasgow Uni Tech Society', 'Accapella Society', 'Philosophy Society']"
+289,2831410G,Amelia Green,Library,2349-0200,Amelia Green,20,Female,1,Philosophy,174,#ed8e89,"['LGBTQ+ Students Association', 'Glasgow Uni Tech Society', 'Accapella Society', 'Philosophy Society']"
+290,2750326B,Mark Begum,Main Building,0900-1100,Mark Begum,26,Male,2,Philosophy,169,#91cae0,"['Italian Society', 'Grim Reaper Quidditch Club', 'Extinction Rebellion', 'Sexpression']"
+291,2750326B,Mark Begum,St Andrews Building,1114-1517,Mark Begum,26,Male,2,Philosophy,169,#91cae0,"['Italian Society', 'Grim Reaper Quidditch Club', 'Extinction Rebellion', 'Sexpression']"
+292,2750326B,Mark Begum,James Watt Building,1542-1631,Mark Begum,26,Male,2,Philosophy,169,#91cae0,"['Italian Society', 'Grim Reaper Quidditch Club', 'Extinction Rebellion', 'Sexpression']"
+293,2750326B,Mark Begum,Queen Margaret Union,1728-1942,Mark Begum,26,Male,2,Philosophy,169,#91cae0,"['Italian Society', 'Grim Reaper Quidditch Club', 'Extinction Rebellion', 'Sexpression']"
+294,2519332H,Anne Hussain,Kelvin Building,0900-1000,Anne Hussain,22,Female,4,Physics,165,#39e81e,"['Rising Stars', 'Extinction Rebellion', 'Grim Reaper Quidditch Club']"
+295,2519332H,Anne Hussain,James Watt Building,1221-1355,Anne Hussain,22,Female,4,Physics,165,#39e81e,"['Rising Stars', 'Extinction Rebellion', 'Grim Reaper Quidditch Club']"
+296,2519332H,Anne Hussain,Adam Smith Building,1448-1700,Anne Hussain,22,Female,4,Physics,165,#39e81e,"['Rising Stars', 'Extinction Rebellion', 'Grim Reaper Quidditch Club']"
+297,2519332H,Anne Hussain,Boyd Orr Building,1755-1906,Anne Hussain,22,Female,4,Physics,165,#39e81e,"['Rising Stars', 'Extinction Rebellion', 'Grim Reaper Quidditch Club']"
+298,2519332H,Anne Hussain,Queen Margaret Union,1941-2036,Anne Hussain,22,Female,4,Physics,165,#39e81e,"['Rising Stars', 'Extinction Rebellion', 'Grim Reaper Quidditch Club']"
+299,2519332H,Anne Hussain,Library,2253-0108,Anne Hussain,22,Female,4,Physics,165,#39e81e,"['Rising Stars', 'Extinction Rebellion', 'Grim Reaper Quidditch Club']"
+300,2713405W,Adrian Williams,Main Building,0900-1100,Adrian Williams,20,Male,2,Philosophy,165,#c374e0,"['Pole Dancing Club', 'Accapella Society', 'Motorcycling Society']"
+301,2713405W,Adrian Williams,Main Building,1129-1508,Adrian Williams,20,Male,2,Philosophy,165,#c374e0,"['Pole Dancing Club', 'Accapella Society', 'Motorcycling Society']"
+302,2713405W,Adrian Williams,Adam Smith Building,1557-1616,Adrian Williams,20,Male,2,Philosophy,165,#c374e0,"['Pole Dancing Club', 'Accapella Society', 'Motorcycling Society']"
+303,2713405W,Adrian Williams,Wolfson Medical Building,1617-1700,Adrian Williams,20,Male,2,Philosophy,165,#c374e0,"['Pole Dancing Club', 'Accapella Society', 'Motorcycling Society']"
+304,2713405W,Adrian Williams,Glasgow University Union,1744-2118,Adrian Williams,20,Male,2,Philosophy,165,#c374e0,"['Pole Dancing Club', 'Accapella Society', 'Motorcycling Society']"
+305,2677899P,Anna Parker,Main Building,0900-1100,Anna Parker,21,Female,3,Philosophy,166,#678909,"['Grim Reaper Quidditch Club', 'Sexpression', 'Glasgow Uni Tech Society', 'Bad Movie Society']"
+306,2677899P,Anna Parker,Kelvingrove Park,1149-1535,Anna Parker,21,Female,3,Philosophy,166,#678909,"['Grim Reaper Quidditch Club', 'Sexpression', 'Glasgow Uni Tech Society', 'Bad Movie Society']"
+307,2677899P,Anna Parker,Wolfson Medical Building,1558-1700,Anna Parker,21,Female,3,Philosophy,166,#678909,"['Grim Reaper Quidditch Club', 'Sexpression', 'Glasgow Uni Tech Society', 'Bad Movie Society']"
+308,2477517J,Gerald Jones,Kelvingrove Park,0929-1150,Gerald Jones,26,Male,5,Medicine,166,#ffd3c4,['Clash Of Clans Society']
+309,2477517J,Gerald Jones,Wolfson Medical Building,1300-1500,Gerald Jones,26,Male,5,Medicine,166,#ffd3c4,['Clash Of Clans Society']
+310,2477517J,Gerald Jones,Boyd Orr Building,1904-2100,Gerald Jones,26,Male,5,Medicine,166,#ffd3c4,['Clash Of Clans Society']
+311,2477517J,Gerald Jones,Library,2114-0017,Gerald Jones,26,Male,5,Medicine,166,#ffd3c4,['Clash Of Clans Society']
+312,2749705T,Joe Thorpe,Main Building,0900-1100,Joe Thorpe,19,Male,2,Philosophy,165,#84f4c4,"['Skate Society', 'Philosophy Society']"
+313,2749705T,Joe Thorpe,James Watt Building,1234-1536,Joe Thorpe,19,Male,2,Philosophy,165,#84f4c4,"['Skate Society', 'Philosophy Society']"
+314,2749705T,Joe Thorpe,Glasgow University Union,1555-1724,Joe Thorpe,19,Male,2,Philosophy,165,#84f4c4,"['Skate Society', 'Philosophy Society']"
+315,2749705T,Joe Thorpe,Queen Margaret Union,1832-1939,Joe Thorpe,19,Male,2,Philosophy,165,#84f4c4,"['Skate Society', 'Philosophy Society']"
+316,2470481H,Marc Harrison,James Watt Building,0932-1030,Marc Harrison,23,Male,5,Mathematics,172,#caa4fc,
+317,2470481H,Marc Harrison,Main Building,1100-1300,Marc Harrison,23,Male,5,Mathematics,172,#caa4fc,
+318,2470481H,Marc Harrison,Queen Margaret Union,1311-1704,Marc Harrison,23,Male,5,Mathematics,172,#caa4fc,
+319,2470481H,Marc Harrison,Library,1850-2120,Marc Harrison,23,Male,5,Mathematics,172,#caa4fc,
+320,2470481H,Marc Harrison,The Hive,2256-0200,Marc Harrison,23,Male,5,Mathematics,172,#caa4fc,
+321,2792337W,Stuart Woods,Queen Margaret Union,0942-1041,Stuart Woods,19,Male,2,Mathematics,185,#1b9b3b,['Marxist Society']
+322,2792337W,Stuart Woods,Main Building,1100-1300,Stuart Woods,19,Male,2,Mathematics,185,#1b9b3b,['Marxist Society']
+323,2792337W,Stuart Woods,James Watt Building,1340-1514,Stuart Woods,19,Male,2,Mathematics,185,#1b9b3b,['Marxist Society']
+324,2792337W,Stuart Woods,Queen Margaret Union,1546-1709,Stuart Woods,19,Male,2,Mathematics,185,#1b9b3b,['Marxist Society']
+325,2792337W,Stuart Woods,Glasgow University Union,1928-2003,Stuart Woods,19,Male,2,Mathematics,185,#1b9b3b,['Marxist Society']
+326,2792337W,Stuart Woods,Kelvingrove Park,2250-0025,Stuart Woods,19,Male,2,Mathematics,185,#1b9b3b,['Marxist Society']
+327,2469836C,Deborah Carter,Kelvin Building,0900-1000,Deborah Carter,23,Female,5,Physics,169,#1dd162,['LGBTQ+ Students Association']
+328,2469836C,Deborah Carter,James Watt Building,1156-1201,Deborah Carter,23,Female,5,Physics,169,#1dd162,['LGBTQ+ Students Association']
+329,2469836C,Deborah Carter,Kelvingrove Park,1319-1540,Deborah Carter,23,Female,5,Physics,169,#1dd162,['LGBTQ+ Students Association']
+330,2469836C,Deborah Carter,James Watt Building,1615-1700,Deborah Carter,23,Female,5,Physics,169,#1dd162,['LGBTQ+ Students Association']
+331,2469836C,Deborah Carter,Kelvingrove Park,2031-2214,Deborah Carter,23,Female,5,Physics,169,#1dd162,['LGBTQ+ Students Association']
+332,2645195D,Jordan Dickinson,Boyd Orr Building,1000-1200,Jordan Dickinson,21,Male,3,Computing Science,164,#cbe253,"['Italian Society', 'Bad Movie Society', 'Clash Of Clans Society']"
+333,2645195D,Jordan Dickinson,Queen Margaret Union,1212-1404,Jordan Dickinson,21,Male,3,Computing Science,164,#cbe253,"['Italian Society', 'Bad Movie Society', 'Clash Of Clans Society']"
+334,2645195D,Jordan Dickinson,Library,1437-1837,Jordan Dickinson,21,Male,3,Computing Science,164,#cbe253,"['Italian Society', 'Bad Movie Society', 'Clash Of Clans Society']"
+335,2645195D,Jordan Dickinson,Glasgow University Union,2133-2300,Jordan Dickinson,21,Male,3,Computing Science,164,#cbe253,"['Italian Society', 'Bad Movie Society', 'Clash Of Clans Society']"
+336,2547258S,Melissa Stewart,Main Building,1000-1200,Melissa Stewart,22,Female,4,Veterinary Medicine,179,#4c1b91,['Soup Society']
+337,2547258S,Melissa Stewart,Adam Smith Building,1235-1333,Melissa Stewart,22,Female,4,Veterinary Medicine,179,#4c1b91,['Soup Society']
+338,2547258S,Melissa Stewart,Boyd Orr Building,1421-1535,Melissa Stewart,22,Female,4,Veterinary Medicine,179,#4c1b91,['Soup Society']
+339,2547258S,Melissa Stewart,Queen Margaret Union,1641-1703,Melissa Stewart,22,Female,4,Veterinary Medicine,179,#4c1b91,['Soup Society']
+340,2547258S,Melissa Stewart,Library,1819-2147,Melissa Stewart,22,Female,4,Veterinary Medicine,179,#4c1b91,['Soup Society']
+341,2455440S,Matthew Smith,Adam Smith Building,1000-1100,Matthew Smith,25,Male,5,Business,166,#21f2b3,"['Glasgow Latin America Society', 'Brunei Society']"
+342,2455440S,Matthew Smith,Boyd Orr Building,1120-1416,Matthew Smith,25,Male,5,Business,166,#21f2b3,"['Glasgow Latin America Society', 'Brunei Society']"
+343,2455440S,Matthew Smith,Queen Margaret Union,1509-1748,Matthew Smith,25,Male,5,Business,166,#21f2b3,"['Glasgow Latin America Society', 'Brunei Society']"
+344,2455440S,Matthew Smith,Glasgow University Union,1755-1811,Matthew Smith,25,Male,5,Business,166,#21f2b3,"['Glasgow Latin America Society', 'Brunei Society']"
+345,2455440S,Matthew Smith,Glasgow University Union,2249-2300,Matthew Smith,25,Male,5,Business,166,#21f2b3,"['Glasgow Latin America Society', 'Brunei Society']"
+346,2621970C,Bryan Cartwright,Adam Smith Building,1000-1100,Bryan Cartwright,22,Male,3,Business,169,#c68eff,"['Volleyball Society', 'Bad Movie Society', 'Motorcycling Society']"
+347,2621970C,Bryan Cartwright,James Watt Building,1105-1537,Bryan Cartwright,22,Male,3,Business,169,#c68eff,"['Volleyball Society', 'Bad Movie Society', 'Motorcycling Society']"
+348,2621970C,Bryan Cartwright,Glasgow University Union,1620-2001,Bryan Cartwright,22,Male,3,Business,169,#c68eff,"['Volleyball Society', 'Bad Movie Society', 'Motorcycling Society']"
+349,2621970C,Bryan Cartwright,The Hive,2317-0200,Bryan Cartwright,22,Male,3,Business,169,#c68eff,"['Volleyball Society', 'Bad Movie Society', 'Motorcycling Society']"
+350,2685206G,Rebecca Griffiths,Joseph Black Building,1000-1100,Rebecca Griffiths,23,Female,3,Chemistry,177,#5fd15c,
+351,2685206G,Rebecca Griffiths,James Watt Building,1101-1553,Rebecca Griffiths,23,Female,3,Chemistry,177,#5fd15c,
+352,2685206G,Rebecca Griffiths,Glasgow University Union,1842-1955,Rebecca Griffiths,23,Female,3,Chemistry,177,#5fd15c,
+353,2685206G,Rebecca Griffiths,Glasgow University Union,2044-2300,Rebecca Griffiths,23,Female,3,Chemistry,177,#5fd15c,
+354,2454540H,Mandy Howell,Adam Smith Building,1000-1100,Mandy Howell,37,Female,5,Business,162,#e23afc,"['Glasgow Uni Tech Society', 'Skate Society', 'Brunei Society']"
+355,2454540H,Mandy Howell,James Watt Building,1109-1226,Mandy Howell,37,Female,5,Business,162,#e23afc,"['Glasgow Uni Tech Society', 'Skate Society', 'Brunei Society']"
+356,2454540H,Mandy Howell,Kelvingrove Park,1243-1347,Mandy Howell,37,Female,5,Business,162,#e23afc,"['Glasgow Uni Tech Society', 'Skate Society', 'Brunei Society']"
+357,2454540H,Mandy Howell,James Watt Building,1447-1605,Mandy Howell,37,Female,5,Business,162,#e23afc,"['Glasgow Uni Tech Society', 'Skate Society', 'Brunei Society']"
+358,2454540H,Mandy Howell,Boyd Orr Building,1821-1902,Mandy Howell,37,Female,5,Business,162,#e23afc,"['Glasgow Uni Tech Society', 'Skate Society', 'Brunei Society']"
+359,2454540H,Mandy Howell,Kelvingrove Park,2210-0201,Mandy Howell,37,Female,5,Business,162,#e23afc,"['Glasgow Uni Tech Society', 'Skate Society', 'Brunei Society']"
+360,2498842W,Josh Walker,Joseph Black Building,1000-1100,Josh Walker,28,Male,5,Chemistry,182,#97f46b,
+361,2498842W,Josh Walker,Queen Margaret Union,1141-1259,Josh Walker,28,Male,5,Chemistry,182,#97f46b,
+362,2498842W,Josh Walker,Glasgow University Union,1312-1647,Josh Walker,28,Male,5,Chemistry,182,#97f46b,
+363,2498842W,Josh Walker,Library,1820-2140,Josh Walker,28,Male,5,Chemistry,182,#97f46b,
+364,2572412H,Eleanor Harvey,Boyd Orr Building,1000-1200,Eleanor Harvey,22,Female,4,Computing Science,175,#fc7edc,['FemEng Society']
+365,2572412H,Eleanor Harvey,Boyd Orr Building,1216-1424,Eleanor Harvey,22,Female,4,Computing Science,175,#fc7edc,['FemEng Society']
+366,2572412H,Eleanor Harvey,St Andrews Building,1442-1523,Eleanor Harvey,22,Female,4,Computing Science,175,#fc7edc,['FemEng Society']
+367,2572412H,Eleanor Harvey,St Andrews Building,1652-1700,Eleanor Harvey,22,Female,4,Computing Science,175,#fc7edc,['FemEng Society']
+368,2572412H,Eleanor Harvey,The Hive,2328-0200,Eleanor Harvey,22,Female,4,Computing Science,175,#fc7edc,['FemEng Society']
+369,2454863F,Joan Francis,James Watt Building,1000-1300,Joan Francis,24,Female,5,Engineering,183,#d1b6ef,['Rising Stars']
+370,2454863F,Joan Francis,Sir Alwyn Williams Building,1334-1405,Joan Francis,24,Female,5,Engineering,183,#d1b6ef,['Rising Stars']
+371,2454863F,Joan Francis,Queen Margaret Union,1659-1929,Joan Francis,24,Female,5,Engineering,183,#d1b6ef,['Rising Stars']
+372,2454863F,Joan Francis,Kelvingrove Park,2338-0340,Joan Francis,24,Female,5,Engineering,183,#d1b6ef,['Rising Stars']
+373,2832313W,Marilyn White,Boyd Orr Building,1000-1200,Marilyn White,21,Female,1,Computing Science,165,#319e12,['Back to Yoga Society']
+374,2832313W,Marilyn White,Sir Alwyn Williams Building,1206-1505,Marilyn White,21,Female,1,Computing Science,165,#319e12,['Back to Yoga Society']
+375,2832313W,Marilyn White,Main Building,1526-1700,Marilyn White,21,Female,1,Computing Science,165,#319e12,['Back to Yoga Society']
+376,2832313W,Marilyn White,Glasgow University Union,2214-2300,Marilyn White,21,Female,1,Computing Science,165,#319e12,['Back to Yoga Society']
+377,2832313W,Marilyn White,Library,2303-0200,Marilyn White,21,Female,1,Computing Science,165,#319e12,['Back to Yoga Society']
+378,2625197Y,Kelly Young,Adam Smith Building,1000-1100,Kelly Young,23,Female,3,Business,162,#c7fbfc,"['Philosophy Society', 'LGBTQ+ Students Association']"
+379,2625197Y,Kelly Young,Library,1116-1525,Kelly Young,23,Female,3,Business,162,#c7fbfc,"['Philosophy Society', 'LGBTQ+ Students Association']"
+380,2625197Y,Kelly Young,Wolfson Medical Building,1632-1700,Kelly Young,23,Female,3,Business,162,#c7fbfc,"['Philosophy Society', 'LGBTQ+ Students Association']"
+381,2625197Y,Kelly Young,Kelvingrove Park,1745-1901,Kelly Young,23,Female,3,Business,162,#c7fbfc,"['Philosophy Society', 'LGBTQ+ Students Association']"
+382,2625197Y,Kelly Young,Boyd Orr Building,1932-2100,Kelly Young,23,Female,3,Business,162,#c7fbfc,"['Philosophy Society', 'LGBTQ+ Students Association']"
+383,2511100D,Paige Dickinson,Adam Smith Building,1000-1100,Paige Dickinson,22,Female,4,Business,179,#d123c2,
+384,2511100D,Paige Dickinson,Boyd Orr Building,1106-1550,Paige Dickinson,22,Female,4,Business,179,#d123c2,
+385,2725476K,Albert King,Joseph Black Building,1000-1100,Albert King,25,Male,2,Chemistry,172,#b2ffe5,
+386,2725476K,Albert King,Queen Margaret Union,1130-1420,Albert King,25,Male,2,Chemistry,172,#b2ffe5,
+387,2725476K,Albert King,Queen Margaret Union,1532-1721,Albert King,25,Male,2,Chemistry,172,#b2ffe5,
+388,2725476K,Albert King,Queen Margaret Union,2008-2300,Albert King,25,Male,2,Chemistry,172,#b2ffe5,
+389,2725476K,Albert King,The Hive,2342-0050,Albert King,25,Male,2,Chemistry,172,#b2ffe5,
+390,2446001M,Vincent Miah,Joseph Black Building,1000-1100,Vincent Miah,23,Male,5,Chemistry,172,#f99f81,"['Accapella Society', 'Philosophy Society']"
+391,2446001M,Vincent Miah,St Andrews Building,1204-1404,Vincent Miah,23,Male,5,Chemistry,172,#f99f81,"['Accapella Society', 'Philosophy Society']"
+392,2446001M,Vincent Miah,Queen Margaret Union,1812-2255,Vincent Miah,23,Male,5,Chemistry,172,#f99f81,"['Accapella Society', 'Philosophy Society']"
+393,2446001M,Vincent Miah,Kelvingrove Park,2353-0247,Vincent Miah,23,Male,5,Chemistry,172,#f99f81,"['Accapella Society', 'Philosophy Society']"
+394,2730014J,Rosemary Jones,Boyd Orr Building,1000-1200,Rosemary Jones,26,Female,2,Computing Science,165,#07576b,"['Brunei Society', 'Glasgow Latin America Society', 'Astrology Society']"
+395,2730014J,Rosemary Jones,Sir Alwyn Williams Building,1243-1447,Rosemary Jones,26,Female,2,Computing Science,165,#07576b,"['Brunei Society', 'Glasgow Latin America Society', 'Astrology Society']"
+396,2730014J,Rosemary Jones,St Andrews Building,1631-1700,Rosemary Jones,26,Female,2,Computing Science,165,#07576b,"['Brunei Society', 'Glasgow Latin America Society', 'Astrology Society']"
+397,2730014J,Rosemary Jones,Glasgow University Union,1916-2219,Rosemary Jones,26,Female,2,Computing Science,165,#07576b,"['Brunei Society', 'Glasgow Latin America Society', 'Astrology Society']"
+398,2730014J,Rosemary Jones,The Hive,2247-0110,Rosemary Jones,26,Female,2,Computing Science,165,#07576b,"['Brunei Society', 'Glasgow Latin America Society', 'Astrology Society']"
+399,2425599J,Angela Jones,Main Building,1000-1200,Angela Jones,23,Female,5,Veterinary Medicine,171,#3543ba,"[""Glasgow Students' Nightline"", 'Brunei Society', 'Motorcycling Society', 'Big Band Society']"
+400,2425599J,Angela Jones,Kelvingrove Park,1214-1350,Angela Jones,23,Female,5,Veterinary Medicine,171,#3543ba,"[""Glasgow Students' Nightline"", 'Brunei Society', 'Motorcycling Society', 'Big Band Society']"
+401,2425599J,Angela Jones,Queen Margaret Union,1446-1519,Angela Jones,23,Female,5,Veterinary Medicine,171,#3543ba,"[""Glasgow Students' Nightline"", 'Brunei Society', 'Motorcycling Society', 'Big Band Society']"
+402,2425599J,Angela Jones,Boyd Orr Building,1552-1936,Angela Jones,23,Female,5,Veterinary Medicine,171,#3543ba,"[""Glasgow Students' Nightline"", 'Brunei Society', 'Motorcycling Society', 'Big Band Society']"
+403,2425599J,Angela Jones,Glasgow University Union,2001-2103,Angela Jones,23,Female,5,Veterinary Medicine,171,#3543ba,"[""Glasgow Students' Nightline"", 'Brunei Society', 'Motorcycling Society', 'Big Band Society']"
+404,2837034T,Valerie Turner,James Watt Building,1007-1054,Valerie Turner,20,Female,1,Mathematics,166,#d655ab,"['Dr Who Society', 'Rising Stars', 'LGBTQ+ Students Association', 'Grim Reaper Quidditch Club']"
+405,2837034T,Valerie Turner,Main Building,1100-1300,Valerie Turner,20,Female,1,Mathematics,166,#d655ab,"['Dr Who Society', 'Rising Stars', 'LGBTQ+ Students Association', 'Grim Reaper Quidditch Club']"
+406,2837034T,Valerie Turner,Glasgow University Union,1318-1648,Valerie Turner,20,Female,1,Mathematics,166,#d655ab,"['Dr Who Society', 'Rising Stars', 'LGBTQ+ Students Association', 'Grim Reaper Quidditch Club']"
+407,2837034T,Valerie Turner,Glasgow University Union,2224-2300,Valerie Turner,20,Female,1,Mathematics,166,#d655ab,"['Dr Who Society', 'Rising Stars', 'LGBTQ+ Students Association', 'Grim Reaper Quidditch Club']"
+408,2548702L,Bradley Lewis,Main Building,1000-1200,Bradley Lewis,23,Male,4,Veterinary Medicine,172,#ba2c60,
+409,2548702L,Bradley Lewis,St Andrews Building,1247-1324,Bradley Lewis,23,Male,4,Veterinary Medicine,172,#ba2c60,
+410,2548702L,Bradley Lewis,Sir Alwyn Williams Building,1425-1650,Bradley Lewis,23,Male,4,Veterinary Medicine,172,#ba2c60,
+411,2548702L,Bradley Lewis,Queen Margaret Union,1751-2123,Bradley Lewis,23,Male,4,Veterinary Medicine,172,#ba2c60,
+412,2548702L,Bradley Lewis,Kelvingrove Park,2345-0358,Bradley Lewis,23,Male,4,Veterinary Medicine,172,#ba2c60,
+413,2583004W,Francis Watkins,Adam Smith Building,1000-1100,Francis Watkins,22,Female,4,Business,159,#e8cc96,"['Esports Society', 'Extinction Rebellion']"
+414,2583004W,Francis Watkins,Wolfson Medical Building,1204-1635,Francis Watkins,22,Female,4,Business,159,#e8cc96,"['Esports Society', 'Extinction Rebellion']"
+415,2583004W,Francis Watkins,Glasgow University Union,2028-2242,Francis Watkins,22,Female,4,Business,159,#e8cc96,"['Esports Society', 'Extinction Rebellion']"
+416,2583004W,Francis Watkins,The Hive,2353-0155,Francis Watkins,22,Female,4,Business,159,#e8cc96,"['Esports Society', 'Extinction Rebellion']"
+417,2567647G,Rosemary Grant,Boyd Orr Building,1000-1200,Rosemary Grant,21,Female,4,Computing Science,166,#a6fcb6,
+418,2567647G,Rosemary Grant,Library,1232-1525,Rosemary Grant,21,Female,4,Computing Science,166,#a6fcb6,
+419,2567647G,Rosemary Grant,Adam Smith Building,1535-1700,Rosemary Grant,21,Female,4,Computing Science,166,#a6fcb6,
+420,2567647G,Rosemary Grant,Kelvingrove Park,1849-1915,Rosemary Grant,21,Female,4,Computing Science,166,#a6fcb6,
+421,2567647G,Rosemary Grant,Glasgow University Union,2247-2300,Rosemary Grant,21,Female,4,Computing Science,166,#a6fcb6,
+422,2681320D,Bradley Davies,Main Building,1000-1200,Bradley Davies,26,Male,3,Veterinary Medicine,172,#58cc35,"['FemEng Society', 'Minecraft Society', 'Glasgow Uni Tech Society', 'Brunei Society']"
+423,2681320D,Bradley Davies,Boyd Orr Building,1210-1634,Bradley Davies,26,Male,3,Veterinary Medicine,172,#58cc35,"['FemEng Society', 'Minecraft Society', 'Glasgow Uni Tech Society', 'Brunei Society']"
+424,2681320D,Bradley Davies,Glasgow University Union,1909-2246,Bradley Davies,26,Male,3,Veterinary Medicine,172,#58cc35,"['FemEng Society', 'Minecraft Society', 'Glasgow Uni Tech Society', 'Brunei Society']"
+425,2523112J,Beth Jones,Glasgow University Union,1027-1237,Beth Jones,24,Female,4,Medicine,178,#8ef9c0,"['Back to Yoga Society', 'Big Band Society']"
+426,2523112J,Beth Jones,Wolfson Medical Building,1300-1500,Beth Jones,24,Female,4,Medicine,178,#8ef9c0,"['Back to Yoga Society', 'Big Band Society']"
+427,2523112J,Beth Jones,Kelvingrove Park,1510-1855,Beth Jones,24,Female,4,Medicine,178,#8ef9c0,"['Back to Yoga Society', 'Big Band Society']"
+428,2523112J,Beth Jones,Queen Margaret Union,2045-2201,Beth Jones,24,Female,4,Medicine,178,#8ef9c0,"['Back to Yoga Society', 'Big Band Society']"
+429,2523112J,Beth Jones,Kelvingrove Park,2221-0227,Beth Jones,24,Female,4,Medicine,178,#8ef9c0,"['Back to Yoga Society', 'Big Band Society']"
+430,2896021C,Simon Clark,Adam Smith Building,1000-1100,Simon Clark,20,Male,1,Business,170,#f4e692,['Astronomy Society']
+431,2896021C,Simon Clark,Queen Margaret Union,1137-1549,Simon Clark,20,Male,1,Business,170,#f4e692,['Astronomy Society']
+432,2896021C,Simon Clark,Main Building,1607-1700,Simon Clark,20,Male,1,Business,170,#f4e692,['Astronomy Society']
+433,2896021C,Simon Clark,Glasgow University Union,2157-2300,Simon Clark,20,Male,1,Business,170,#f4e692,['Astronomy Society']
+434,2758447O,Donna Oliver,Adam Smith Building,1000-1100,Donna Oliver,26,Female,2,Business,168,#baccf2,
+435,2758447O,Donna Oliver,Glasgow University Union,1117-1454,Donna Oliver,26,Female,2,Business,168,#baccf2,
+436,2758447O,Donna Oliver,Kelvingrove Park,1519-1901,Donna Oliver,26,Female,2,Business,168,#baccf2,
+437,2734142L,Jenna Leonard,Joseph Black Building,1000-1100,Jenna Leonard,20,Female,2,Chemistry,176,#35ff67,"['Juggling Society', 'LGBTQ+ Students Association', 'Soup Society', 'Marxist Society']"
+438,2734142L,Jenna Leonard,Boyd Orr Building,1120-1357,Jenna Leonard,20,Female,2,Chemistry,176,#35ff67,"['Juggling Society', 'LGBTQ+ Students Association', 'Soup Society', 'Marxist Society']"
+439,2734142L,Jenna Leonard,Adam Smith Building,1431-1700,Jenna Leonard,20,Female,2,Chemistry,176,#35ff67,"['Juggling Society', 'LGBTQ+ Students Association', 'Soup Society', 'Marxist Society']"
+440,2525914R,Barry Robinson,Adam Smith Building,1000-1100,Barry Robinson,25,Male,4,Business,171,#ffcabf,"['Marxist Society', 'Back to Yoga Society', 'Bad Movie Society', 'Sexpression']"
+441,2525914R,Barry Robinson,Glasgow University Union,1230-1347,Barry Robinson,25,Male,4,Business,171,#ffcabf,"['Marxist Society', 'Back to Yoga Society', 'Bad Movie Society', 'Sexpression']"
+442,2525914R,Barry Robinson,Sir Alwyn Williams Building,1407-1646,Barry Robinson,25,Male,4,Business,171,#ffcabf,"['Marxist Society', 'Back to Yoga Society', 'Bad Movie Society', 'Sexpression']"
+443,2525914R,Barry Robinson,Main Building,1649-1700,Barry Robinson,25,Male,4,Business,171,#ffcabf,"['Marxist Society', 'Back to Yoga Society', 'Bad Movie Society', 'Sexpression']"
+444,2526191H,Mohammed Harvey,Boyd Orr Building,1000-1200,Mohammed Harvey,24,Male,4,Computing Science,162,#ff21f0,
+445,2526191H,Mohammed Harvey,Glasgow University Union,1321-1446,Mohammed Harvey,24,Male,4,Computing Science,162,#ff21f0,
+446,2526191H,Mohammed Harvey,James Watt Building,1544-1613,Mohammed Harvey,24,Male,4,Computing Science,162,#ff21f0,
+447,2526191H,Mohammed Harvey,Boyd Orr Building,1654-1917,Mohammed Harvey,24,Male,4,Computing Science,162,#ff21f0,
+448,2526191H,Mohammed Harvey,Boyd Orr Building,1954-2043,Mohammed Harvey,24,Male,4,Computing Science,162,#ff21f0,
+449,2581559M,Jayne Morgan,Main Building,1000-1200,Jayne Morgan,26,Female,4,Veterinary Medicine,181,#b2eef7,
+450,2581559M,Jayne Morgan,Adam Smith Building,1246-1342,Jayne Morgan,26,Female,4,Veterinary Medicine,181,#b2eef7,
+451,2581559M,Jayne Morgan,Adam Smith Building,1354-1700,Jayne Morgan,26,Female,4,Veterinary Medicine,181,#b2eef7,
+452,2581559M,Jayne Morgan,Library,1715-2059,Jayne Morgan,26,Female,4,Veterinary Medicine,181,#b2eef7,
+453,2581559M,Jayne Morgan,Library,2334-0052,Jayne Morgan,26,Female,4,Veterinary Medicine,181,#b2eef7,
+454,2824152H,Marian Hutchinson,Adam Smith Building,1000-1100,Marian Hutchinson,24,Female,1,Business,181,#cf69db,"['Glasgow Latin America Society', 'Accapella Society']"
+455,2824152H,Marian Hutchinson,Adam Smith Building,1159-1441,Marian Hutchinson,24,Female,1,Business,181,#cf69db,"['Glasgow Latin America Society', 'Accapella Society']"
+456,2824152H,Marian Hutchinson,Wolfson Medical Building,1550-1700,Marian Hutchinson,24,Female,1,Business,181,#cf69db,"['Glasgow Latin America Society', 'Accapella Society']"
+457,2824152H,Marian Hutchinson,Kelvingrove Park,1852-1954,Marian Hutchinson,24,Female,1,Business,181,#cf69db,"['Glasgow Latin America Society', 'Accapella Society']"
+458,2882607B,Jane Burns,Adam Smith Building,1000-1100,Jane Burns,24,Female,1,Business,176,#c41b6d,
+459,2882607B,Jane Burns,Adam Smith Building,1225-1329,Jane Burns,24,Female,1,Business,176,#c41b6d,
+460,2882607B,Jane Burns,Library,1348-1510,Jane Burns,24,Female,1,Business,176,#c41b6d,
+461,2882607B,Jane Burns,Queen Margaret Union,1544-1856,Jane Burns,24,Female,1,Business,176,#c41b6d,
+462,2882607B,Jane Burns,Glasgow University Union,2258-2300,Jane Burns,24,Female,1,Business,176,#c41b6d,
+463,2654342R,Kate Randall,James Watt Building,1000-1300,Kate Randall,22,Female,3,Engineering,172,#d1e84e,['Marxist Society']
+464,2654342R,Kate Randall,Kelvingrove Park,1321-1546,Kate Randall,22,Female,3,Engineering,172,#d1e84e,['Marxist Society']
+465,2654342R,Kate Randall,Glasgow University Union,1622-2035,Kate Randall,22,Female,3,Engineering,172,#d1e84e,['Marxist Society']
+466,2654342R,Kate Randall,Library,2316-0200,Kate Randall,22,Female,3,Engineering,172,#d1e84e,['Marxist Society']
+467,2882334J,Bethany Johnson,James Watt Building,1000-1300,Bethany Johnson,17,Female,1,Engineering,168,#d17255,"[""Glasgow Students' Nightline"", 'Brunei Society', 'Esports Society', 'Italian Society']"
+468,2882334J,Bethany Johnson,Boyd Orr Building,1331-1423,Bethany Johnson,17,Female,1,Engineering,168,#d17255,"[""Glasgow Students' Nightline"", 'Brunei Society', 'Esports Society', 'Italian Society']"
+469,2882334J,Bethany Johnson,James Watt Building,1509-1700,Bethany Johnson,17,Female,1,Engineering,168,#d17255,"[""Glasgow Students' Nightline"", 'Brunei Society', 'Esports Society', 'Italian Society']"
+470,2882334J,Bethany Johnson,Glasgow University Union,2240-2300,Bethany Johnson,17,Female,1,Engineering,168,#d17255,"[""Glasgow Students' Nightline"", 'Brunei Society', 'Esports Society', 'Italian Society']"
+471,2618619A,Aimee Andrews,Joseph Black Building,1000-1100,Aimee Andrews,26,Female,3,Chemistry,178,#2bc49e,"['Glasgow Uni Tech Society', 'Rising Stars', 'Back to Yoga Society']"
+472,2618619A,Aimee Andrews,James Watt Building,1129-1410,Aimee Andrews,26,Female,3,Chemistry,178,#2bc49e,"['Glasgow Uni Tech Society', 'Rising Stars', 'Back to Yoga Society']"
+473,2618619A,Aimee Andrews,James Watt Building,1454-1653,Aimee Andrews,26,Female,3,Chemistry,178,#2bc49e,"['Glasgow Uni Tech Society', 'Rising Stars', 'Back to Yoga Society']"
+474,2618619A,Aimee Andrews,Boyd Orr Building,1958-2100,Aimee Andrews,26,Female,3,Chemistry,178,#2bc49e,"['Glasgow Uni Tech Society', 'Rising Stars', 'Back to Yoga Society']"
+475,2618619A,Aimee Andrews,Library,2322-0200,Aimee Andrews,26,Female,3,Chemistry,178,#2bc49e,"['Glasgow Uni Tech Society', 'Rising Stars', 'Back to Yoga Society']"
+476,2480281E,Sharon Ellis,Boyd Orr Building,1000-1200,Sharon Ellis,23,Female,5,Computing Science,172,#ef88a7,
+477,2480281E,Sharon Ellis,Library,1215-1359,Sharon Ellis,23,Female,5,Computing Science,172,#ef88a7,
+478,2480281E,Sharon Ellis,Sir Alwyn Williams Building,1438-1615,Sharon Ellis,23,Female,5,Computing Science,172,#ef88a7,
+479,2480281E,Sharon Ellis,Glasgow University Union,1824-1958,Sharon Ellis,23,Female,5,Computing Science,172,#ef88a7,
+480,2874921K,Lorraine Khan,Main Building,1000-1200,Lorraine Khan,18,Female,1,Veterinary Medicine,165,#f28ae7,"['Accapella Society', 'Extinction Rebellion']"
+481,2874921K,Lorraine Khan,Adam Smith Building,1253-1344,Lorraine Khan,18,Female,1,Veterinary Medicine,165,#f28ae7,"['Accapella Society', 'Extinction Rebellion']"
+482,2874921K,Lorraine Khan,Sir Alwyn Williams Building,1452-1530,Lorraine Khan,18,Female,1,Veterinary Medicine,165,#f28ae7,"['Accapella Society', 'Extinction Rebellion']"
+483,2874921K,Lorraine Khan,Boyd Orr Building,1627-1853,Lorraine Khan,18,Female,1,Veterinary Medicine,165,#f28ae7,"['Accapella Society', 'Extinction Rebellion']"
+484,2791185W,Jennifer White,Adam Smith Building,1000-1100,Jennifer White,24,Female,2,Business,175,#8c8bd3,"['Volleyball Society', 'Big Band Society']"
+485,2791185W,Jennifer White,Main Building,1137-1405,Jennifer White,24,Female,2,Business,175,#8c8bd3,"['Volleyball Society', 'Big Band Society']"
+486,2791185W,Jennifer White,Main Building,1456-1636,Jennifer White,24,Female,2,Business,175,#8c8bd3,"['Volleyball Society', 'Big Band Society']"
+487,2791185W,Jennifer White,Glasgow University Union,2237-2300,Jennifer White,24,Female,2,Business,175,#8c8bd3,"['Volleyball Society', 'Big Band Society']"
+488,2818528C,Paul Cox,Boyd Orr Building,1000-1200,Paul Cox,17,Male,1,Computing Science,166,#f2c9ff,"['Clash Of Clans Society', 'Bad Movie Society', 'Juggling Society']"
+489,2818528C,Paul Cox,Main Building,1226-1628,Paul Cox,17,Male,1,Computing Science,166,#f2c9ff,"['Clash Of Clans Society', 'Bad Movie Society', 'Juggling Society']"
+490,2818528C,Paul Cox,Kelvingrove Park,1805-1910,Paul Cox,17,Male,1,Computing Science,166,#f2c9ff,"['Clash Of Clans Society', 'Bad Movie Society', 'Juggling Society']"
+491,2818528C,Paul Cox,Kelvingrove Park,2355-0141,Paul Cox,17,Male,1,Computing Science,166,#f2c9ff,"['Clash Of Clans Society', 'Bad Movie Society', 'Juggling Society']"
+492,2570078S,Rosemary Smith,Joseph Black Building,1000-1100,Rosemary Smith,26,Female,4,Chemistry,168,#c6a537,"['Pole Dancing Club', 'Brunei Society', 'Soup Society']"
+493,2570078S,Rosemary Smith,Main Building,1239-1514,Rosemary Smith,26,Female,4,Chemistry,168,#c6a537,"['Pole Dancing Club', 'Brunei Society', 'Soup Society']"
+494,2570078S,Rosemary Smith,Kelvingrove Park,1645-1705,Rosemary Smith,26,Female,4,Chemistry,168,#c6a537,"['Pole Dancing Club', 'Brunei Society', 'Soup Society']"
+495,2570078S,Rosemary Smith,Library,1841-2101,Rosemary Smith,26,Female,4,Chemistry,168,#c6a537,"['Pole Dancing Club', 'Brunei Society', 'Soup Society']"
+496,2465403M,Michael Mills,Main Building,1000-1200,Michael Mills,24,Male,5,Veterinary Medicine,161,#99fccc,"['FemEng Society', 'LGBTQ+ Students Association', 'Shrek Society', 'Esports Society']"
+497,2465403M,Michael Mills,Wolfson Medical Building,1403-1700,Michael Mills,24,Male,5,Veterinary Medicine,161,#99fccc,"['FemEng Society', 'LGBTQ+ Students Association', 'Shrek Society', 'Esports Society']"
+498,2465403M,Michael Mills,Glasgow University Union,1705-1827,Michael Mills,24,Male,5,Veterinary Medicine,161,#99fccc,"['FemEng Society', 'LGBTQ+ Students Association', 'Shrek Society', 'Esports Society']"
+499,2821638S,Ross Singh,Adam Smith Building,1000-1100,Ross Singh,17,Male,1,Business,165,#c1ed15,"['Shrek Society', 'Clash Of Clans Society']"
+500,2821638S,Ross Singh,James Watt Building,1250-1551,Ross Singh,17,Male,1,Business,165,#c1ed15,"['Shrek Society', 'Clash Of Clans Society']"
+501,2821638S,Ross Singh,Glasgow University Union,1717-2027,Ross Singh,17,Male,1,Business,165,#c1ed15,"['Shrek Society', 'Clash Of Clans Society']"
+502,2723085H,Norman Hart,Sir Alwyn Williams Building,1024-1237,Norman Hart,19,Male,2,Medicine,164,#4193a8,"['Big Band Society', ""Glasgow Students' Nightline"", 'Shrek Society']"
+503,2723085H,Norman Hart,Wolfson Medical Building,1300-1500,Norman Hart,19,Male,2,Medicine,164,#4193a8,"['Big Band Society', ""Glasgow Students' Nightline"", 'Shrek Society']"
+504,2723085H,Norman Hart,St Andrews Building,1541-1617,Norman Hart,19,Male,2,Medicine,164,#4193a8,"['Big Band Society', ""Glasgow Students' Nightline"", 'Shrek Society']"
+505,2723085H,Norman Hart,Queen Margaret Union,1833-2228,Norman Hart,19,Male,2,Medicine,164,#4193a8,"['Big Band Society', ""Glasgow Students' Nightline"", 'Shrek Society']"
+506,2723085H,Norman Hart,Library,2340-0200,Norman Hart,19,Male,2,Medicine,164,#4193a8,"['Big Band Society', ""Glasgow Students' Nightline"", 'Shrek Society']"
+507,2774868P,Alice Patterson,Boyd Orr Building,1000-1200,Alice Patterson,26,Female,2,Engineering,171,#cce88b,"{'Volleyball Society', 'Back to Yoga Society'}"
+508,2774868P,Alice Patterson,Library,1635-1750,Alice Patterson,26,Female,2,Engineering,171,#cce88b,"{'Volleyball Society', 'Back to Yoga Society'}"
+509,2774868P,Alice Patterson,St Andrews Building,1625-1700,Alice Patterson,26,Female,2,Engineering,171,#cce88b,"{'Volleyball Society', 'Back to Yoga Society'}"
+510,2690785M,Eleanor Marsh,Adam Smith Building,1000-1100,Eleanor Marsh,21,Female,3,Business,160,#4fff98,"['LGBTQ+ Students Association', 'Juggling Society', 'Pole Dancing Club', 'Skate Society']"
+511,2690785M,Eleanor Marsh,Wolfson Medical Building,1111-1319,Eleanor Marsh,21,Female,3,Business,160,#4fff98,"['LGBTQ+ Students Association', 'Juggling Society', 'Pole Dancing Club', 'Skate Society']"
+512,2690785M,Eleanor Marsh,St Andrews Building,1523-1700,Eleanor Marsh,21,Female,3,Business,160,#4fff98,"['LGBTQ+ Students Association', 'Juggling Society', 'Pole Dancing Club', 'Skate Society']"
+513,2690785M,Eleanor Marsh,Glasgow University Union,1747-1954,Eleanor Marsh,21,Female,3,Business,160,#4fff98,"['LGBTQ+ Students Association', 'Juggling Society', 'Pole Dancing Club', 'Skate Society']"
+514,2690785M,Eleanor Marsh,Boyd Orr Building,2028-2100,Eleanor Marsh,21,Female,3,Business,160,#4fff98,"['LGBTQ+ Students Association', 'Juggling Society', 'Pole Dancing Club', 'Skate Society']"
+515,2818729W,Jack Watson,Boyd Orr Building,1000-1200,Jack Watson,21,Male,1,Computing Science,164,#0c0060,"['Italian Society', 'Skate Society', 'Shrek Society']"
+516,2818729W,Jack Watson,St Andrews Building,1228-1411,Jack Watson,21,Male,1,Computing Science,164,#0c0060,"['Italian Society', 'Skate Society', 'Shrek Society']"
+517,2818729W,Jack Watson,Queen Margaret Union,1905-2124,Jack Watson,21,Male,1,Computing Science,164,#0c0060,"['Italian Society', 'Skate Society', 'Shrek Society']"
+518,2818729W,Jack Watson,Library,2334-0200,Jack Watson,21,Male,1,Computing Science,164,#0c0060,"['Italian Society', 'Skate Society', 'Shrek Society']"
+519,2737433D,Matthew Davis,Main Building,1000-1200,Matthew Davis,18,Male,2,Veterinary Medicine,161,#e23190,"['Philosophy Society', 'Grim Reaper Quidditch Club']"
+520,2737433D,Matthew Davis,Main Building,1349-1640,Matthew Davis,18,Male,2,Veterinary Medicine,161,#e23190,"['Philosophy Society', 'Grim Reaper Quidditch Club']"
+521,2737433D,Matthew Davis,Queen Margaret Union,1755-2038,Matthew Davis,18,Male,2,Veterinary Medicine,161,#e23190,"['Philosophy Society', 'Grim Reaper Quidditch Club']"
+522,2737433D,Matthew Davis,The Hive,2321-0010,Matthew Davis,18,Male,2,Veterinary Medicine,161,#e23190,"['Philosophy Society', 'Grim Reaper Quidditch Club']"
+523,2728928M,Abdul Murray,Main Building,1000-1200,Abdul Murray,21,Male,2,Veterinary Medicine,173,#ea88ac,
+524,2728928M,Abdul Murray,Queen Margaret Union,1235-1533,Abdul Murray,21,Male,2,Veterinary Medicine,173,#ea88ac,
+525,2728928M,Abdul Murray,Adam Smith Building,1603-1700,Abdul Murray,21,Male,2,Veterinary Medicine,173,#ea88ac,
+526,2728928M,Abdul Murray,Glasgow University Union,1843-2038,Abdul Murray,21,Male,2,Veterinary Medicine,173,#ea88ac,
+527,2843288W,Derek Wilson,Boyd Orr Building,1000-1200,Derek Wilson,21,Male,1,Computing Science,171,#a00913,['Dr Who Society']
+528,2843288W,Derek Wilson,Glasgow University Union,1213-1609,Derek Wilson,21,Male,1,Computing Science,171,#a00913,['Dr Who Society']
+529,2843288W,Derek Wilson,Queen Margaret Union,1920-2159,Derek Wilson,21,Male,1,Computing Science,171,#a00913,['Dr Who Society']
+530,2843288W,Derek Wilson,The Hive,2307-0029,Derek Wilson,21,Male,1,Computing Science,171,#a00913,['Dr Who Society']
+531,2755520M,Marion McCarthy,Joseph Black Building,1000-1100,Marion McCarthy,25,Female,2,Chemistry,165,#f9c4b8,
+532,2755520M,Marion McCarthy,Queen Margaret Union,1252-1434,Marion McCarthy,25,Female,2,Chemistry,165,#f9c4b8,
+533,2755520M,Marion McCarthy,Adam Smith Building,1539-1700,Marion McCarthy,25,Female,2,Chemistry,165,#f9c4b8,
+534,2755520M,Marion McCarthy,Boyd Orr Building,1855-2100,Marion McCarthy,25,Female,2,Chemistry,165,#f9c4b8,
+535,2568478F,Edward Forster,Adam Smith Building,1000-1100,Edward Forster,22,Male,4,Business,170,#ccfcff,"['Philosophy Society', 'Shrek Society', 'Esports Society']"
+536,2568478F,Edward Forster,Kelvingrove Park,1103-1346,Edward Forster,22,Male,4,Business,170,#ccfcff,"['Philosophy Society', 'Shrek Society', 'Esports Society']"
+537,2568478F,Edward Forster,Main Building,1530-1700,Edward Forster,22,Male,4,Business,170,#ccfcff,"['Philosophy Society', 'Shrek Society', 'Esports Society']"
+538,2568478F,Edward Forster,Kelvingrove Park,1854-1935,Edward Forster,22,Male,4,Business,170,#ccfcff,"['Philosophy Society', 'Shrek Society', 'Esports Society']"
+539,2568478F,Edward Forster,The Hive,2215-0200,Edward Forster,22,Male,4,Business,170,#ccfcff,"['Philosophy Society', 'Shrek Society', 'Esports Society']"
+540,2774753B,Jill Banks,Adam Smith Building,1000-1100,Jill Banks,26,Female,2,Business,175,#77b4ea,['Rising Stars']
+541,2774753B,Jill Banks,St Andrews Building,1236-1328,Jill Banks,26,Female,2,Business,175,#77b4ea,['Rising Stars']
+542,2774753B,Jill Banks,St Andrews Building,1350-1649,Jill Banks,26,Female,2,Business,175,#77b4ea,['Rising Stars']
+543,2774753B,Jill Banks,Wolfson Medical Building,1658-1700,Jill Banks,26,Female,2,Business,175,#77b4ea,['Rising Stars']
+544,2691086J,Callum Jenkins,Joseph Black Building,1000-1100,Callum Jenkins,21,Male,3,Chemistry,177,#92db32,"['Juggling Society', 'Italian Society', 'Accapella Society']"
+545,2691086J,Callum Jenkins,Library,1148-1533,Callum Jenkins,21,Male,3,Chemistry,177,#92db32,"['Juggling Society', 'Italian Society', 'Accapella Society']"
+546,2691086J,Callum Jenkins,Glasgow University Union,1619-1832,Callum Jenkins,21,Male,3,Chemistry,177,#92db32,"['Juggling Society', 'Italian Society', 'Accapella Society']"
+547,2691086J,Callum Jenkins,Queen Margaret Union,1945-2300,Callum Jenkins,21,Male,3,Chemistry,177,#92db32,"['Juggling Society', 'Italian Society', 'Accapella Society']"
+548,2691086J,Callum Jenkins,The Hive,2328-0113,Callum Jenkins,21,Male,3,Chemistry,177,#92db32,"['Juggling Society', 'Italian Society', 'Accapella Society']"
+549,2490833B,Danielle Black,Boyd Orr Building,1000-1200,Danielle Black,23,Female,5,Computing Science,176,#816ddb,"['Philosophy Society', 'Cymdeithas Cymry Glasgow', 'Marxist Society', 'Glasgow Uni Tech Society']"
+550,2490833B,Danielle Black,Adam Smith Building,1229-1606,Danielle Black,23,Female,5,Computing Science,176,#816ddb,"['Philosophy Society', 'Cymdeithas Cymry Glasgow', 'Marxist Society', 'Glasgow Uni Tech Society']"
+551,2490833B,Danielle Black,Queen Margaret Union,1649-1715,Danielle Black,23,Female,5,Computing Science,176,#816ddb,"['Philosophy Society', 'Cymdeithas Cymry Glasgow', 'Marxist Society', 'Glasgow Uni Tech Society']"
+552,2490833B,Danielle Black,Library,2248-2348,Danielle Black,23,Female,5,Computing Science,176,#816ddb,"['Philosophy Society', 'Cymdeithas Cymry Glasgow', 'Marxist Society', 'Glasgow Uni Tech Society']"
+553,2571499C,Anne Cooper,Main Building,1000-1200,Anne Cooper,22,Female,4,Veterinary Medicine,173,#a95dd8,
+554,2571499C,Anne Cooper,Boyd Orr Building,1254-1615,Anne Cooper,22,Female,4,Veterinary Medicine,173,#a95dd8,
+555,2533061J,Antony James,Joseph Black Building,1000-1100,Antony James,22,Male,4,Chemistry,168,#dd73d1,['Astrology Society']
+556,2533061J,Antony James,Library,1135-1330,Antony James,22,Male,4,Chemistry,168,#dd73d1,['Astrology Society']
+557,2533061J,Antony James,Main Building,1410-1700,Antony James,22,Male,4,Chemistry,168,#dd73d1,['Astrology Society']
+558,2533061J,Antony James,Kelvingrove Park,2353-0340,Antony James,22,Male,4,Chemistry,168,#dd73d1,['Astrology Society']
+559,2448644B,Graeme Barnes,Joseph Black Building,1000-1100,Graeme Barnes,22,Male,5,Chemistry,183,#dd6a8d,"['Glasgow Uni Tech Society', 'Cymdeithas Cymry Glasgow', 'Esports Society', 'Big Band Society']"
+560,2448644B,Graeme Barnes,Glasgow University Union,1206-1556,Graeme Barnes,22,Male,5,Chemistry,183,#dd6a8d,"['Glasgow Uni Tech Society', 'Cymdeithas Cymry Glasgow', 'Esports Society', 'Big Band Society']"
+561,2739234J,Sophie Johnston,Joseph Black Building,1000-1100,Sophie Johnston,24,Female,2,Chemistry,160,#014070,
+562,2739234J,Sophie Johnston,Glasgow University Union,1205-1604,Sophie Johnston,24,Female,2,Chemistry,160,#014070,
+563,2663801S,Gary Singh,Boyd Orr Building,1000-1200,Gary Singh,21,Male,3,Computing Science,163,#ff70c3,"['Glasgow Latin America Society', 'Bad Movie Society']"
+564,2663801S,Gary Singh,Boyd Orr Building,1256-1434,Gary Singh,21,Male,3,Computing Science,163,#ff70c3,"['Glasgow Latin America Society', 'Bad Movie Society']"
+565,2663801S,Gary Singh,Main Building,1456-1700,Gary Singh,21,Male,3,Computing Science,163,#ff70c3,"['Glasgow Latin America Society', 'Bad Movie Society']"
+566,2663801S,Gary Singh,Glasgow University Union,1822-2056,Gary Singh,21,Male,3,Computing Science,163,#ff70c3,"['Glasgow Latin America Society', 'Bad Movie Society']"
+567,2663801S,Gary Singh,Glasgow University Union,2253-2300,Gary Singh,21,Male,3,Computing Science,163,#ff70c3,"['Glasgow Latin America Society', 'Bad Movie Society']"
+568,2522391J,Lee James,St Andrews Building,1042-1129,Lee James,22,Male,4,Medicine,157,#a8002f,"['Sexpression', 'Skate Society', 'Soup Society']"
+569,2522391J,Lee James,Kelvingrove Park,1151-1233,Lee James,22,Male,4,Medicine,157,#a8002f,"['Sexpression', 'Skate Society', 'Soup Society']"
+570,2522391J,Lee James,Wolfson Medical Building,1300-1500,Lee James,22,Male,4,Medicine,157,#a8002f,"['Sexpression', 'Skate Society', 'Soup Society']"
+571,2522391J,Lee James,Wolfson Medical Building,1658-1700,Lee James,22,Male,4,Medicine,157,#a8002f,"['Sexpression', 'Skate Society', 'Soup Society']"
+572,2522391J,Lee James,Queen Margaret Union,2235-2300,Lee James,22,Male,4,Medicine,157,#a8002f,"['Sexpression', 'Skate Society', 'Soup Society']"
+573,2711217D,Marie Douglas,Joseph Black Building,1000-1100,Marie Douglas,23,Female,2,Chemistry,160,#cfffaa,['Sexpression']
+574,2711217D,Marie Douglas,Boyd Orr Building,1253-1453,Marie Douglas,23,Female,2,Chemistry,160,#cfffaa,['Sexpression']
+575,2711217D,Marie Douglas,Boyd Orr Building,1855-2100,Marie Douglas,23,Female,2,Chemistry,160,#cfffaa,['Sexpression']
+576,2870428T,Carole Taylor,Main Building,1000-1200,Carole Taylor,24,Female,1,Veterinary Medicine,183,#06844b,
+577,2870428T,Carole Taylor,Glasgow University Union,1349-1457,Carole Taylor,24,Female,1,Veterinary Medicine,183,#06844b,
+578,2870428T,Carole Taylor,Library,1536-1902,Carole Taylor,24,Female,1,Veterinary Medicine,183,#06844b,
+579,2858027D,Lynda Davis,Joseph Black Building,1000-1100,Lynda Davis,26,Female,1,Chemistry,170,#a292db,['Glasgow Latin America Society']
+580,2858027D,Lynda Davis,Library,1152-1540,Lynda Davis,26,Female,1,Chemistry,170,#a292db,['Glasgow Latin America Society']
+581,2858027D,Lynda Davis,Sir Alwyn Williams Building,1615-1700,Lynda Davis,26,Female,1,Chemistry,170,#a292db,['Glasgow Latin America Society']
+582,2858027D,Lynda Davis,Library,2351-0115,Lynda Davis,26,Female,1,Chemistry,170,#a292db,['Glasgow Latin America Society']
+583,2456431B,Oscar Brown,James Watt Building,1000-1300,Oscar Brown,23,Male,5,Engineering,181,#c92450,"['Astrology Society', 'Sexpression']"
+584,2456431B,Oscar Brown,Boyd Orr Building,1116-1232,Oscar Brown,23,Male,5,Engineering,181,#c92450,"['Astrology Society', 'Sexpression']"
+585,2456431B,Oscar Brown,Kelvingrove Park,1210-1532,Oscar Brown,23,Male,5,Engineering,181,#c92450,"['Astrology Society', 'Sexpression']"
+586,2456431B,Oscar Brown,Queen Margaret Union,1343-1643,Oscar Brown,23,Male,5,Engineering,181,#c92450,"['Astrology Society', 'Sexpression']"
+587,2795502Y,Shaun Yates,Joseph Black Building,1000-1100,Shaun Yates,21,Male,2,Chemistry,170,#55bf09,"['Minecraft Society', 'Back to Yoga Society', 'Glasgow Uni Tech Society', 'Juggling Society']"
+588,2795502Y,Shaun Yates,Boyd Orr Building,1116-1539,Shaun Yates,21,Male,2,Chemistry,170,#55bf09,"['Minecraft Society', 'Back to Yoga Society', 'Glasgow Uni Tech Society', 'Juggling Society']"
+589,2795502Y,Shaun Yates,Kelvingrove Park,2328-0324,Shaun Yates,21,Male,2,Chemistry,170,#55bf09,"['Minecraft Society', 'Back to Yoga Society', 'Glasgow Uni Tech Society', 'Juggling Society']"
+590,2625929L,Lynne Lee,Main Building,1100-1300,Lynne Lee,21,Female,3,Mathematics,166,#d15bef,
+591,2625929L,Lynne Lee,James Watt Building,1302-1653,Lynne Lee,21,Female,3,Mathematics,166,#d15bef,
+592,2625929L,Lynne Lee,Library,1753-2153,Lynne Lee,21,Female,3,Mathematics,166,#d15bef,
+593,2820311J,Pamela Jones,Main Building,1100-1300,Pamela Jones,21,Female,1,Mathematics,164,#f49ca2,
+594,2820311J,Pamela Jones,Boyd Orr Building,1349-1638,Pamela Jones,21,Female,1,Mathematics,164,#f49ca2,
+595,2820311J,Pamela Jones,Library,2126-0113,Pamela Jones,21,Female,1,Mathematics,164,#f49ca2,
+596,2731502W,Teresa Wright,Main Building,1100-1300,Teresa Wright,22,Female,2,Mathematics,174,#efa7ee,
+597,2731502W,Teresa Wright,Glasgow University Union,1331-1617,Teresa Wright,22,Female,2,Mathematics,174,#efa7ee,
+598,2731502W,Teresa Wright,Kelvingrove Park,1831-2248,Teresa Wright,22,Female,2,Mathematics,174,#efa7ee,
+599,2721938H,Joanna Howell,Main Building,1100-1300,Joanna Howell,25,Female,2,Mathematics,173,#e02c56,"['Juggling Society', 'Glasgow Uni Tech Society', 'Volleyball Society', 'Skate Society']"
+600,2721938H,Joanna Howell,Queen Margaret Union,1349-1749,Joanna Howell,25,Female,2,Mathematics,173,#e02c56,"['Juggling Society', 'Glasgow Uni Tech Society', 'Volleyball Society', 'Skate Society']"
+601,2721938H,Joanna Howell,Library,1922-2321,Joanna Howell,25,Female,2,Mathematics,173,#e02c56,"['Juggling Society', 'Glasgow Uni Tech Society', 'Volleyball Society', 'Skate Society']"
+602,2627185W,Anne Webb,Kelvingrove Park,1103-1257,Anne Webb,26,Female,3,Medicine,162,#f2dba9,"['Juggling Society', 'Philosophy Society', 'Brunei Society']"
+603,2627185W,Anne Webb,Wolfson Medical Building,1300-1500,Anne Webb,26,Female,3,Medicine,162,#f2dba9,"['Juggling Society', 'Philosophy Society', 'Brunei Society']"
+604,2627185W,Anne Webb,Kelvingrove Park,1551-1630,Anne Webb,26,Female,3,Medicine,162,#f2dba9,"['Juggling Society', 'Philosophy Society', 'Brunei Society']"
+605,2422827J,Kieran James,Main Building,1100-1300,Kieran James,23,Male,5,Mathematics,163,#d31f5e,"['Shrek Society', 'Soup Society', 'Extinction Rebellion', 'Motorcycling Society']"
+606,2422827J,Kieran James,Sir Alwyn Williams Building,1532-1700,Kieran James,23,Male,5,Mathematics,163,#d31f5e,"['Shrek Society', 'Soup Society', 'Extinction Rebellion', 'Motorcycling Society']"
+607,2422827J,Kieran James,Library,1823-1948,Kieran James,23,Male,5,Mathematics,163,#d31f5e,"['Shrek Society', 'Soup Society', 'Extinction Rebellion', 'Motorcycling Society']"
+608,2422827J,Kieran James,The Hive,2333-0028,Kieran James,23,Male,5,Mathematics,163,#d31f5e,"['Shrek Society', 'Soup Society', 'Extinction Rebellion', 'Motorcycling Society']"
+609,2464451S,Jasmine Simpson,Main Building,1100-1300,Jasmine Simpson,23,Female,5,Mathematics,161,#f98eab,
+610,2464451S,Jasmine Simpson,Wolfson Medical Building,1359-1511,Jasmine Simpson,23,Female,5,Mathematics,161,#f98eab,
+611,2464451S,Jasmine Simpson,Boyd Orr Building,1550-1626,Jasmine Simpson,23,Female,5,Mathematics,161,#f98eab,
+612,2464451S,Jasmine Simpson,Queen Margaret Union,1737-2000,Jasmine Simpson,23,Female,5,Mathematics,161,#f98eab,
+613,2721346E,Sophie Evans,Main Building,1100-1300,Sophie Evans,25,Female,2,Mathematics,171,#e9b3f9,
+614,2721346E,Sophie Evans,Kelvingrove Park,1336-1628,Sophie Evans,25,Female,2,Mathematics,171,#e9b3f9,
+615,2721346E,Sophie Evans,Sir Alwyn Williams Building,1639-1700,Sophie Evans,25,Female,2,Mathematics,171,#e9b3f9,
+616,2553818H,Stacey Harrison,Glasgow University Union,1106-1234,Stacey Harrison,25,Female,4,Medicine,163,#7e51cc,"['Back to Yoga Society', 'Esports Society', 'Glasgow Uni Tech Society']"
+617,2553818H,Stacey Harrison,Wolfson Medical Building,1300-1500,Stacey Harrison,25,Female,4,Medicine,163,#7e51cc,"['Back to Yoga Society', 'Esports Society', 'Glasgow Uni Tech Society']"
+618,2553818H,Stacey Harrison,Main Building,1513-1700,Stacey Harrison,25,Female,4,Medicine,163,#7e51cc,"['Back to Yoga Society', 'Esports Society', 'Glasgow Uni Tech Society']"
+619,2553818H,Stacey Harrison,Library,2337-0200,Stacey Harrison,25,Female,4,Medicine,163,#7e51cc,"['Back to Yoga Society', 'Esports Society', 'Glasgow Uni Tech Society']"
+620,2752222W,Tom Williams,Main Building,1100-1300,Tom Williams,22,Male,2,Mathematics,164,#b9ff70,"['Minecraft Society', 'Grim Reaper Quidditch Club', 'Skate Society', 'Extinction Rebellion']"
+621,2752222W,Tom Williams,Main Building,1402-1700,Tom Williams,22,Male,2,Mathematics,164,#b9ff70,"['Minecraft Society', 'Grim Reaper Quidditch Club', 'Skate Society', 'Extinction Rebellion']"
+622,2752222W,Tom Williams,The Hive,2249-0200,Tom Williams,22,Male,2,Mathematics,164,#b9ff70,"['Minecraft Society', 'Grim Reaper Quidditch Club', 'Skate Society', 'Extinction Rebellion']"
+623,2410968J,Lee Jones,Main Building,1100-1300,Lee Jones,26,Female,5,Mathematics,171,#d102c6,"['Astrology Society', 'LGBTQ+ Students Association', 'Juggling Society', 'Brunei Society']"
+624,2410968J,Lee Jones,Kelvingrove Park,1445-1602,Lee Jones,26,Female,5,Mathematics,171,#d102c6,"['Astrology Society', 'LGBTQ+ Students Association', 'Juggling Society', 'Brunei Society']"
+625,2410968J,Lee Jones,James Watt Building,1619-1700,Lee Jones,26,Female,5,Mathematics,171,#d102c6,"['Astrology Society', 'LGBTQ+ Students Association', 'Juggling Society', 'Brunei Society']"
+626,2827341C,Martyn Cox,Kelvingrove Park,1154-1234,Martyn Cox,20,Male,1,Medicine,171,#ddbc02,['Skate Society']
+627,2827341C,Martyn Cox,Wolfson Medical Building,1300-1500,Martyn Cox,20,Male,1,Medicine,171,#ddbc02,['Skate Society']
+628,2827341C,Martyn Cox,James Watt Building,1548-1700,Martyn Cox,20,Male,1,Medicine,171,#ddbc02,['Skate Society']
+629,2827341C,Martyn Cox,Boyd Orr Building,1847-1935,Martyn Cox,20,Male,1,Medicine,171,#ddbc02,['Skate Society']
+630,2827341C,Martyn Cox,Boyd Orr Building,1938-2100,Martyn Cox,20,Male,1,Medicine,171,#ddbc02,['Skate Society']
+631,2411432W,Jeremy Wood,Main Building,1100-1300,Jeremy Wood,23,Male,5,Mathematics,171,#48d341,"['Shrek Society', 'Pole Dancing Club', 'Big Band Society']"
+632,2411432W,Jeremy Wood,Sir Alwyn Williams Building,1322-1700,Jeremy Wood,23,Male,5,Mathematics,171,#48d341,"['Shrek Society', 'Pole Dancing Club', 'Big Band Society']"
+633,2411432W,Jeremy Wood,Glasgow University Union,1757-2135,Jeremy Wood,23,Male,5,Mathematics,171,#48d341,"['Shrek Society', 'Pole Dancing Club', 'Big Band Society']"
+634,2558530F,Luke Frost,Main Building,1100-1300,Luke Frost,24,Male,4,Mathematics,164,#451fdd,"['Back to Yoga Society', 'Accapella Society', 'Dr Who Society', 'Brunei Society']"
+635,2558530F,Luke Frost,James Watt Building,1313-1451,Luke Frost,24,Male,4,Mathematics,164,#451fdd,"['Back to Yoga Society', 'Accapella Society', 'Dr Who Society', 'Brunei Society']"
+636,2558530F,Luke Frost,Adam Smith Building,1507-1611,Luke Frost,24,Male,4,Mathematics,164,#451fdd,"['Back to Yoga Society', 'Accapella Society', 'Dr Who Society', 'Brunei Society']"
+637,2558530F,Luke Frost,Glasgow University Union,1658-1848,Luke Frost,24,Male,4,Mathematics,164,#451fdd,"['Back to Yoga Society', 'Accapella Society', 'Dr Who Society', 'Brunei Society']"
+638,2558530F,Luke Frost,Queen Margaret Union,1956-2235,Luke Frost,24,Male,4,Mathematics,164,#451fdd,"['Back to Yoga Society', 'Accapella Society', 'Dr Who Society', 'Brunei Society']"
+639,2558530F,Luke Frost,The Hive,2239-0053,Luke Frost,24,Male,4,Mathematics,164,#451fdd,"['Back to Yoga Society', 'Accapella Society', 'Dr Who Society', 'Brunei Society']"
+640,2446198D,Russell Dixon,Main Building,1100-1300,Russell Dixon,26,Male,5,Mathematics,173,#c62edd,"{'Minecraft Society', 'Bad Movie Society', 'Juggling Society'}"
+641,2498857H,Vincent Herbert,Wolfson Medical Building,1300-1500,Vincent Herbert,24,Male,5,Medicine,176,#8aeaaa,['Motorcycling Society']
+642,2498857H,Vincent Herbert,Wolfson Medical Building,1553-1700,Vincent Herbert,24,Male,5,Medicine,176,#8aeaaa,['Motorcycling Society']
+643,2498857H,Vincent Herbert,Boyd Orr Building,1749-1944,Vincent Herbert,24,Male,5,Medicine,176,#8aeaaa,['Motorcycling Society']
+644,2498857H,Vincent Herbert,Queen Margaret Union,2217-2300,Vincent Herbert,24,Male,5,Medicine,176,#8aeaaa,['Motorcycling Society']
+645,2877082J,Jeffrey Jones,Wolfson Medical Building,1300-1500,Jeffrey Jones,19,Male,1,Medicine,178,#ddac77,
+646,2877082J,Jeffrey Jones,Library,1532-1843,Jeffrey Jones,19,Male,1,Medicine,178,#ddac77,
+647,2877082J,Jeffrey Jones,The Hive,2348-0128,Jeffrey Jones,19,Male,1,Medicine,178,#ddac77,
+648,2733956H,Jill Hill,Wolfson Medical Building,1300-1500,Jill Hill,21,Female,2,Medicine,161,#21a823,
+649,2733956H,Jill Hill,Glasgow University Union,1551-1625,Jill Hill,21,Female,2,Medicine,161,#21a823,
+650,2733956H,Jill Hill,Library,1759-1840,Jill Hill,21,Female,2,Medicine,161,#21a823,
+651,2819085J,Rhys James,Wolfson Medical Building,1300-1500,Rhys James,25,Male,1,Medicine,176,#e23c16,"['Marxist Society', 'Juggling Society']"
+652,2819085J,Rhys James,Adam Smith Building,1613-1700,Rhys James,25,Male,1,Medicine,176,#e23c16,"['Marxist Society', 'Juggling Society']"
+653,2819085J,Rhys James,Kelvingrove Park,2017-0028,Rhys James,25,Male,1,Medicine,176,#e23c16,"['Marxist Society', 'Juggling Society']"
