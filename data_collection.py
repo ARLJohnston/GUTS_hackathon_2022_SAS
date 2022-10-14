@@ -7,10 +7,10 @@ location_data = pd.read_csv("location_data.csv", on_bad_lines='warn')
 people_data = pd.read_csv("people_data.csv", on_bad_lines='warn')
 security_data = pd.read_csv("security_logs.csv", on_bad_lines='warn')
 
-#main_data = security_data.merge(people_data, on=['Student ID'])
-#m
-#main_data = temp_data.merge(location_data, on=['Location'])
-#main_data.to_csv('main.csv')
+main_data = security_data.merge(people_data, on=['Student ID'])
+location_data.rename(columns={'Building Name':'Location'}, inplace=True)
+main_data = main_data.merge(location_data, on=['Location'])
+main_data.to_csv('main.csv')
 
 
 # Helper Functions regarding location data
