@@ -7,7 +7,10 @@ location_data = pd.read_csv("location_data.csv", on_bad_lines='warn')
 people_data = pd.read_csv("people_data.csv", on_bad_lines='warn')
 security_data = pd.read_csv("security_logs.csv", on_bad_lines='warn')
 
-
+#main_data = security_data.merge(people_data, on=['Student ID'])
+#m
+#main_data = temp_data.merge(location_data, on=['Location'])
+#main_data.to_csv('main.csv')
 
 
 # Helper Functions regarding location data
@@ -68,4 +71,26 @@ def get_security_location():
 def get_security_time():
     return security_data['Time'].to_numpy()
 
+# Further Helper Functions
+def latitude_longitude():
+    locations = get_location_geolocations()
+    i = 0
+    list_convertion = []
+    for item in locations:
+        item = item[1:-1:]
+        items = item.split(" ")
+        for num in items:
+            num = float(num)
+        temp = np.asarray(items)
+        list_convertion.append(temp)
 
+    np_array = np.array(list_convertion)
+    df = pd.DataFrame(np_array, columns=['Latitude', 'Longitude'])
+
+    copy_of_location_data = location_data.copy()
+    copy_of_location_data.drop('Geolocation', axis=1)
+
+    result = pd.concat([copy_of_location_data, df], axis=1, ignore_index=False)
+    return result
+
+latitude_longitude()
