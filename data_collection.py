@@ -72,6 +72,8 @@ def get_security_time():
     return security_data['Time'].to_numpy()
 
 # Further Helper Functions
+
+# Function which splits location_data's geolocation into a latitude and longitude
 def latitude_longitude():
     locations = get_location_geolocations()
     i = 0
@@ -92,3 +94,48 @@ def latitude_longitude():
 
     result = pd.concat([copy_of_location_data, df], axis=1, ignore_index=False)
     return result
+
+# A function which takes a student ID, and outputs every location and time recorded
+def get_locations_and_times(student_id):
+
+    instances = []
+
+    for index, row in main_data.iterrows():
+        if row['Student ID'] == student_id:
+            instances.append([row['Location'], row['Time']])
+
+    if len(instances) == 0:
+        return None
+
+    return_array = np.array(instances)
+    return return_array
+
+# A function which returns a boolean based on whether a student's timed locations has no contradictions
+def times_match(student_id):
+    case = get_locations_and_times(student_id)
+    if type(case) is None:
+        return None
+    times = case[:,1]
+
+    time_list = []
+    for time in times:
+        time_split = time.split('-')
+        time_list.append(time_split)
+
+    time_list.sort(key=lambda row: (int(row[0])))
+    print(time_list)
+    for time in time_list:
+        while time[0][0] == '0':
+            time[0] = time[0][1:]
+        while time[1][0] == '0':
+            time[1] = time[1][1:]
+
+    for i in range(len(time_list) - 1):
+        if int(time_list[i][1]) > int(time_list[i+1][0]):
+            return False
+
+    return True
+
+print(times_match('2495155L'))
+
+
