@@ -1,20 +1,28 @@
 import geopandas as gpd
 import matplotlib as plt
 import pandas as pd
-import pyepsg as pep
-import folium as fl
+import folium
 import io
 from PIL import Image
 from selenium import webdriver
 import os
 import time
-p_loc = pd.read_csv("location_data_2.csv",sep=',', on_bad_lines='warn',header=0,)
+import requests
 
-geometry = gpd.points_from_xy(p_loc.Longitude,p_loc.Latitude)
+BASE_URL = 'https://nominatim.openstreetmap.org/search?format=json'
 
-geo_loc = gpd.GeoDataFrame(p_loc,geometry=geometry)
+postcode = 'G42 9AY'
+response = requests.get(f"{BASE_URL}&postalcode={postcode}")
+response = response.json()
 
-map = fl.Map(location=[geo_loc['Latitude'][0],geo_loc['Longitude'][0]],tiles= "OpenStreetMap",zoom_start=18)
+latitude = response[0].get('lat')
+longitude = response[0].get('lon')
+loc = [latitude, longitude] 
+OSmap = folium.Map(location = loc,
+                   zoom_start=13,
+                   tiles='openstreetmap')
+
+OSmap.save("map.html")
 
 h_file = "map.html"
 
