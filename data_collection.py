@@ -52,5 +52,17 @@ def get_people_societies():
     return people_data['Societies'].to_numpy()
 
 
+# Getter functions for the attributes in security_logs
+def get_security_student_id():
+    return security_data['Student ID'].to_numpy()
+
+def get_security_name():
+    return security_data['Name'].to_numpy()
+
+def get_security_location():
+    return security_data['Location'].to_numpy()
+
+def get_security_time():
+    return security_data['Time'].to_numpy()
 
 
