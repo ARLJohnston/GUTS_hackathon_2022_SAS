@@ -92,5 +92,3 @@ def latitude_longitude():
 
     result = pd.concat([copy_of_location_data, df], axis=1, ignore_index=False)
     return result
-
-latitude_longitude()
