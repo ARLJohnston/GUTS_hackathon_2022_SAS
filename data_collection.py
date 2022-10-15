@@ -192,3 +192,27 @@ def get_point_time(time):
     mask = np.where((student_times_array[:, 3] < time) & (student_times_array[:, 4] > time))
 
     return student_times_array[mask]
+
+
+def get_building_loc(name):
+    loc = location_data.to_numpy()
+    return [float(i) for i in loc[loc[:,0]==name,1][0][1:-2].split(' ')]
+
+
+def get_student_locations(time):
+    present = get_point_time(time)
+    person_geoloc = pd.DataFrame(columns = ["latitude", "longitude", "color", "size"])
+    print(present)
+    
+    for i in present:
+        geo = get_building_loc(i[2])
+
+        person_geoloc.loc[len(person_geoloc.index)] = [geo[0], geo[1], 1, 10]
+        
+    
+    return person_geoloc
+        
+
+
+
+print(get_student_locations(530))
