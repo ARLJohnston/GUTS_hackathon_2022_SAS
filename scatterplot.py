@@ -1,6 +1,7 @@
 import plotly.graph_objects as go
 import plotly.express as px
 import pandas as pd
+import os
 
 df = pd.read_csv (r'C:\Users\goenk\Downloads\SAS_GUTS_Hackathon-20221014T172129Z-001\SAS_GUTS_Hackathon\locationfinal.csv')
 print(df.head(10))
@@ -43,4 +44,5 @@ fig.update_layout(
     sliders=sliders
 )
 
-fig.write_html("C:\map.ico/map1.html")
+output = os.getcwd() + "/map.html"
+fig.write_html("output")

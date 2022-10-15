@@ -1,4 +1,4 @@
-
+import os
 from cefpython3 import cefpython as cef
 import ctypes
 
@@ -125,8 +125,9 @@ class BrowserFrame(tk.Frame):
         window_info = cef.WindowInfo()
         rect = [0, 0, self.winfo_width(), self.winfo_height()]
         window_info.SetAsChild(self.get_window_handle(), rect)
+        map_location = os.getcwd() + "/map.html"
         self.browser = cef.CreateBrowserSync(window_info,
-                                             url="C:\map.ico/map1.html")  # todo
+                                             url=map_location)
         assert self.browser
         self.browser.SetClientHandler(LoadHandler(self))
         self.browser.SetClientHandler(FocusHandler(self))
