@@ -211,8 +211,9 @@ def get_student_locations(time):
         
     
     return person_geoloc
-        
 
+def slider_wrapper(time):
+    hours = (time // 100)*100
+    minutes = ((60/100)*(time % 100))//1
+    return get_student_locations(time)
 
-
-print(get_student_locations(530))
