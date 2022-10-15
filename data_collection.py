@@ -174,7 +174,7 @@ def times_match(student_id):
 
     return True
 
-
+# Function which gets a
 def get_point_time(time):
     student_times = security_data.copy()
     student_times[['Start', 'End']] = student_times['Time'].str.split('-', 1, expand=True).to_numpy()
