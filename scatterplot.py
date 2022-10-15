@@ -1,23 +1,27 @@
 import plotly.graph_objects as go
 import plotly.express as px
+
 import pandas as pd
 import os
+import data_collection as dc
 
-df = pd.read_csv (r'C:\Users\goenk\Downloads\SAS_GUTS_Hackathon-20221014T172129Z-001\SAS_GUTS_Hackathon\locationfinal.csv')
+
+
+df = dc.slider_wrapper(1000)
 print(df.head(10))
 print(df.tail(10))
 
 fig=px.scatter_mapbox(df,
 
 
-                      lon=df['lon'],
-                      lat=df['lat'],
-                      zoom=5,
+                      lon=df['longitude'],
+                      lat=df['latitude'],
+                      zoom=15,
                       color=df['color'],
                       size=df['size'],
                       width=1200,
                       height=900,
-                      title='Car Share')
+                      )
 fig.update_layout(mapbox_style="open-street-map")
 fig.update_layout(margin={"r":0,"t":50,"l":0,"b":10})
 
@@ -45,4 +49,4 @@ fig.update_layout(
 )
 
 output = os.path.join(os.getcwd() , "map.html")
-fig.write_html("output")
+fig.write_html("map.html")
