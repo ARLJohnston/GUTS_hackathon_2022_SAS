@@ -1,4 +1,3 @@
-from msilib import sequence
 import plotly.graph_objects as go
 import plotly.express as px
 
@@ -21,7 +20,7 @@ fig=px.scatter_mapbox(df,
                       lon=df['longitude'],
                       lat=df['latitude'],
                       zoom=15,
-                      color_continuous_scale=px.colors.sequence(Yl0rRd),
+                      color_continuous_scale=px.colors.sequential.Plasma,
                       size=df['size'],
                       width=1200,
                       height=900,
