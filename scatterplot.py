@@ -10,6 +10,7 @@ time = 0
 #df = dc.slider_wrapper(1000)
 
 df = pd.DataFrame(columns=["latitude", "longitude", "color", "size", "time"])
+df["size"] = df["size"].astype(int)
 while(time<2400):
     df = df.append(dc.slider_wrapper(time), ignore_index=True)
     time += time_step
@@ -28,6 +29,7 @@ fig=px.scatter_mapbox(df,
                       )
 fig.update_layout(mapbox_style="open-street-map")
 fig.update_layout(margin={"r":0,"t":50,"l":0,"b":10})
+#fig.update_layout(hovermode="size")
 
 
 # Create and add slider
