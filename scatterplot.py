@@ -1,3 +1,4 @@
+from msilib import sequence
 import plotly.graph_objects as go
 import plotly.express as px
 
@@ -5,14 +6,13 @@ import pandas as pd
 import os
 import data_collection as dc
 
-
 time_step = 50
 time = 0
 #df = dc.slider_wrapper(1000)
 
 df = pd.DataFrame(columns=["latitude", "longitude", "color", "size", "time"])
 while(time<2400):
-    df = df.append(dc.get_student_locations(time), ignore_index=True)
+    df = df.append(dc.slider_wrapper(time), ignore_index=True)
     time += time_step
 
 fig=px.scatter_mapbox(df,
@@ -21,7 +21,7 @@ fig=px.scatter_mapbox(df,
                       lon=df['longitude'],
                       lat=df['latitude'],
                       zoom=15,
-                      color=df['color'],
+                      color_continuous_scale=px.colors.sequence(Yl0rRd),
                       size=df['size'],
                       width=1200,
                       height=900,
