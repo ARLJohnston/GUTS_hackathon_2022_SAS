@@ -44,5 +44,5 @@ fig.update_layout(
     sliders=sliders
 )
 
-output = os.getcwd() + "/map.html"
+output = os.path.join(os.getcwd() , "map.html")
 fig.write_html("output")

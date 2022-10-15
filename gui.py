@@ -125,7 +125,7 @@ class BrowserFrame(tk.Frame):
         window_info = cef.WindowInfo()
         rect = [0, 0, self.winfo_width(), self.winfo_height()]
         window_info.SetAsChild(self.get_window_handle(), rect)
-        map_location = os.getcwd() + "/map.html"
+        map_location = os.path.join(os.getcwd(), "map.html")
         self.browser = cef.CreateBrowserSync(window_info,
                                              url=map_location)
         assert self.browser
