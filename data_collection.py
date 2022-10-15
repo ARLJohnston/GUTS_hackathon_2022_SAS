@@ -211,7 +211,17 @@ def get_building_loc(name):
         
     return [float(i) for i in loc[0][1:-2].split(' ')]
 
-
+def get_bld_name(lat,long):
+    a = latitude_longitude().to_numpy()
+    name = ""
+    for i in range(len(a)):
+        if float(a[i][4]) == lat and float(a[i][5]) == long:
+            name = a[i][0]
+    
+    return name
+                
+                
+       
 def get_student_locations(time):
     present = get_point_time(time)
     person_geoloc = pd.DataFrame(columns = ["latitude", "longitude", "color", "size","time"])
@@ -246,4 +256,3 @@ if __name__ == "__main__":
     #tests
     get_students_under_age(18, 'Main Building')
 
-get_student_locations(1000)
