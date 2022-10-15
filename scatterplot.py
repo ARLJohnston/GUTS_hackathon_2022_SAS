@@ -1,3 +1,5 @@
+from statistics import mode
+from turtle import color
 import plotly.graph_objects as go
 import plotly.express as px
 
@@ -13,6 +15,7 @@ df = pd.DataFrame(columns=["latitude", "longitude", "color", "size", "time"])
 df["size"] = df["size"].astype(int)
 while(time<2400):
     df = df.append(dc.slider_wrapper(time), ignore_index=True)
+    
     time += time_step
 
 fig=px.scatter_mapbox(df,
@@ -21,12 +24,25 @@ fig=px.scatter_mapbox(df,
                       lon=df['longitude'],
                       lat=df['latitude'],
                       zoom=15,
-                      color_continuous_scale=px.colors.sequential.Plasma,
-                      size=df['size'],
+                      color = df["size"],
+
+                      size = df['size'],
+                      size_max = 70,
                       width=1200,
                       height=900,
                       animation_frame=df["time"],
                       )
+# fig.add_trace(
+#     go.Scattermapbox(
+        
+#         lon=df['longitude'],
+#         lat=df['latitude'],
+#         marker = {'size': df['size']},
+#         showlegend=False,
+#         animation_frame=df["time"],
+#     )
+# )
+# fig.update_traces(mode = "markers", marker = {'size': df['size']})
 fig.update_layout(mapbox_style="open-street-map")
 fig.update_layout(margin={"r":0,"t":50,"l":0,"b":10})
 #fig.update_layout(hovermode="size")

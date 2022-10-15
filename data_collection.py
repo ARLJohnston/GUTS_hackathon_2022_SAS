@@ -1,3 +1,4 @@
+from calendar import c
 import pandas as pd
 import numpy as np
 from certifi import where
@@ -215,15 +216,26 @@ def get_student_locations(time):
     present = get_point_time(time)
     person_geoloc = pd.DataFrame(columns = ["latitude", "longitude", "color", "size","time"])
     #print(present)
-    
+    was_breaked = False
     for i in present:
         geo = get_building_loc(i[2])
         if geo is None:
+            was_breaked = True
             break
         person_geoloc.loc[len(person_geoloc.index)] = [geo[0], geo[1], 1, 10,time]
-        
+
     
-    return person_geoloc
+
+    groupped_person = person_geoloc.groupby(['latitude', 'longitude']).size().reset_index()
+    
+    groupped_person.columns = ['latitude', 'longitude', 'size']
+    groupped_person['size'] = groupped_person['size'].apply(lambda x: x)
+    groupped_person['color'] = 1
+    groupped_person['time'] = time
+    columns_titles = ["latitude", "longitude", "color", "size","time"]
+    groupped_person=groupped_person.reindex(columns=columns_titles)
+    #print(groupped_person)
+    return groupped_person
 
 def slider_wrapper(time):
     hours = (time // 100)*100
@@ -233,3 +245,5 @@ def slider_wrapper(time):
 if __name__ == "__main__":
     #tests
     get_students_under_age(18, 'Main Building')
+
+get_student_locations(1000)
