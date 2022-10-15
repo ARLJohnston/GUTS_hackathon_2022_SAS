@@ -69,7 +69,7 @@ class SplashFrame(tk.Frame):
         self.long_lab = tk.Label(root,font=18,text="Longitude")
         self.long = tk.Text(root,height=2, width =20)
 
-        self.button = tk.Button(root,text="Map",command= lambda: (self.main_window(self.selected_options),root.destroy()))
+        self.button = tk.Button(root,text="Map",command= lambda:run_mainwindows(self.selected_options(),root))
 
         # PACK STUFF
         self.splash_label.pack()
@@ -81,6 +81,20 @@ class SplashFrame(tk.Frame):
         self.long.pack(expand=True)
        
         self.button.pack()
+
+def run_mainwindows(selection,prev_root):
+    prev_root.destroy()
+    root = tk.Tk()
+    root.title("CEF Python")
+    
+    
+    app = MainFrame(root)
+    # Tk must be initialized before CEF otherwise fatal error (Issue #306)
+    cef.Initialize()
+    app.mainloop()
+    cef.Shutdown()
+    
+
 
 class MainFrame(tk.Frame):
 
@@ -413,4 +427,5 @@ if __name__ == '__main__':
     cef.Initialize()
 
     app.mainloop()
-    cef.Shutdown()
+    
+
