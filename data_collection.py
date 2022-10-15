@@ -116,6 +116,14 @@ def latitude_longitude():
     result = pd.concat([copy_of_location_data, df], axis=1, ignore_index=False)
     return result
 
+def get_students_under_age(age, location):
+    frame = people_data[['Student ID','Age']].to_numpy()
+    under_18s = frame[frame[:,1]<age,0]
+    sussy_students = security_data[security_data['Student ID'].isin(under_18s)]
+    sussy_students = sussy_students.loc[sussy_students['Location'] == location]
+    print(sussy_students)
+    return sussy_students
+    
 
 # A function which takes a student ID, and outputs every location and time recorded
 def get_locations_and_times(student_id):
@@ -222,3 +230,6 @@ def slider_wrapper(time):
     minutes = ((60/100)*(time % 100))//1
     return get_student_locations(time)
 
+if __name__ == "__main__":
+    #tests
+    get_students_under_age(18, 'Main Building')
