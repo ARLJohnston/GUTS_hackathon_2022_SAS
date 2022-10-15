@@ -11,9 +11,12 @@ time_step = 50
 time = 0
 #df = dc.slider_wrapper(1000)
 
-df = pd.DataFrame(columns=["latitude", "longitude", "color", "size", "time"])
+df = pd.DataFrame(columns=["building","latitude", "longitude", "color", "size", "time"])
 df["size"] = df["size"].astype(int)
+
 while(time<2400):
+    
+    
     df = df.append(dc.slider_wrapper(time), ignore_index=True)
     
     time += time_step
@@ -31,6 +34,7 @@ fig=px.scatter_mapbox(df,
                       width=1200,
                       height=900,
                       animation_frame=df["time"],
+                      hover_name=df["building"],
                       )
 # fig.add_trace(
 #     go.Scattermapbox(

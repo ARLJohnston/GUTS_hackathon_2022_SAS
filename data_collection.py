@@ -215,36 +215,49 @@ def get_bld_name(lat,long):
     a = latitude_longitude().to_numpy()
     name = ""
     for i in range(len(a)):
-        if float(a[i][4]) == lat and float(a[i][5]) == long:
+        if (float(a[i][4]) == lat) & (float(a[i][5]) == long):
             name = a[i][0]
     
     return name
                 
-                
+def get_bld_desc(name):
+    a = latitude_longitude().to_numpy()
+    desc = ""
+    for i in range(len(a)):
+        if a[i][0]==name:
+            desc = a[i][3]
+    return desc
+
        
 def get_student_locations(time):
     present = get_point_time(time)
-    person_geoloc = pd.DataFrame(columns = ["latitude", "longitude", "color", "size","time"])
+    person_geoloc = pd.DataFrame(columns = ["building","latitude", "longitude", "color", "size","time"])
     #print(present)
+   
     was_breaked = False
     for i in present:
         geo = get_building_loc(i[2])
+        
         if geo is None:
             was_breaked = True
             break
-        person_geoloc.loc[len(person_geoloc.index)] = [geo[0], geo[1], 1, 10,time]
+        
+        
+        person_geoloc.loc[len(person_geoloc.index)] = [i[2],geo[0], geo[1], 1, 10,time]
 
     
 
-    groupped_person = person_geoloc.groupby(['latitude', 'longitude']).size().reset_index()
+    groupped_person = person_geoloc.groupby(['building','latitude', 'longitude']).size().reset_index()
     
-    groupped_person.columns = ['latitude', 'longitude', 'size']
+    groupped_person.columns = ['building','latitude', 'longitude', 'size']
+    
     groupped_person['size'] = groupped_person['size'].apply(lambda x: x)
     groupped_person['color'] = 1
     groupped_person['time'] = time
-    columns_titles = ["latitude", "longitude", "color", "size","time"]
+    
+    columns_titles = ["building","latitude", "longitude", "color", "size","time"]
     groupped_person=groupped_person.reindex(columns=columns_titles)
-    #print(groupped_person)
+    
     return groupped_person
 
 def slider_wrapper(time):
@@ -252,7 +265,9 @@ def slider_wrapper(time):
     minutes = ((60/100)*(time % 100))//1
     return get_student_locations(time)
 
-if __name__ == "__main__":
-    #tests
-    get_students_under_age(18, 'Main Building')
+#if __name__ == "__main__":
+#    #tests
+#    get_students_under_age(18, 'Main Building')
+#
 
+get_student_locations(1030)
