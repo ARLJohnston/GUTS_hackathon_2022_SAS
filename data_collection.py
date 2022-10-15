@@ -196,18 +196,23 @@ def get_point_time(time):
 
 def get_building_loc(name):
     loc = location_data.to_numpy()
-    return [float(i) for i in loc[loc[:,0]==name,1][0][1:-2].split(' ')]
+    loc = loc[loc[:,0]==name,1]
+    if len(loc) == 0:
+        return None
+        
+    return [float(i) for i in loc[0][1:-2].split(' ')]
 
 
 def get_student_locations(time):
     present = get_point_time(time)
-    person_geoloc = pd.DataFrame(columns = ["latitude", "longitude", "color", "size"])
-    print(present)
+    person_geoloc = pd.DataFrame(columns = ["latitude", "longitude", "color", "size","time"])
+    #print(present)
     
     for i in present:
         geo = get_building_loc(i[2])
-
-        person_geoloc.loc[len(person_geoloc.index)] = [geo[0], geo[1], 1, 10]
+        if geo is None:
+            break
+        person_geoloc.loc[len(person_geoloc.index)] = [geo[0], geo[1], 1, 10,time]
         
     
     return person_geoloc

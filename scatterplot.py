@@ -6,10 +6,14 @@ import os
 import data_collection as dc
 
 
+time_step = 50
+time = 0
+#df = dc.slider_wrapper(1000)
 
-df = dc.slider_wrapper(1000)
-print(df.head(10))
-print(df.tail(10))
+df = pd.DataFrame(columns=["latitude", "longitude", "color", "size", "time"])
+while(time<2400):
+    df = df.append(dc.get_student_locations(time), ignore_index=True)
+    time += time_step
 
 fig=px.scatter_mapbox(df,
 
@@ -21,6 +25,7 @@ fig=px.scatter_mapbox(df,
                       size=df['size'],
                       width=1200,
                       height=900,
+                      animation_frame=df["time"],
                       )
 fig.update_layout(mapbox_style="open-street-map")
 fig.update_layout(margin={"r":0,"t":50,"l":0,"b":10})
@@ -29,7 +34,7 @@ fig.update_layout(margin={"r":0,"t":50,"l":0,"b":10})
 # Create and add slider
 steps = []
 # for i in range(len(fig.data)):
-#    step = dict(
+#     step = dict(
 #         method="update",
 #         args=[{"visible": [False] * len(fig.data)},
 #               {"title": "Slider switched to step: " + str(i)}],  # layout attribute
@@ -41,7 +46,7 @@ sliders = [dict(
     active=10,
     currentvalue={"prefix": "Time in hours: "},
     pad={"t": 48},
-    #steps=steps
+    steps=steps
 )]
 
 fig.update_layout(
@@ -50,3 +55,4 @@ fig.update_layout(
 
 output = os.path.join(os.getcwd() , "map.html")
 fig.write_html("map.html")
+
