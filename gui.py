@@ -26,6 +26,60 @@ logger = _logging.getLogger("tkinter_.py")
 # Tk 8.5 doesn't support png images
 IMAGE_EXT = ".png" if tk.TkVersion > 8.5 else ".gif"
 
+class SplashFrame(tk.Frame):
+    def find_files(self,x) -> list:
+        for file in os.listdir(os.getcwd()):
+            if file.endswith(".txt"):
+                x.insert(tk.END,file)
+
+        return x
+
+    def selected_options(self):
+        selected = []
+        for select in self.splash_filename.curselection():
+            selected.append(self.splash_filename.get(select))
+
+        lt = self.lat.get(1.0,tk.END)
+        lng = self.long.get(1.0,tk.END)
+
+        selected.append(lt)
+        selected.append(lng)
+
+        return selected
+    def __init__(self,root):
+
+        # Root
+        root.geometry("400x500")
+
+        # Struct
+
+        self.splash_label = tk.Label(root,font=18)
+
+
+        self.file_lab = tk.Label(root,font=18,text="Select files to import: ")
+
+        self.splash_filename = tk.Listbox(root,selectmode="multiple",height=10)
+
+        self.find_files(self.splash_filename)
+
+
+        self.lat_lab = tk.Label(root,font=18,text="Latitude")
+        self.lat = tk.Text(root,height = 2, width=20)
+        self.long_lab = tk.Label(root,font=18,text="Longitude")
+        self.long = tk.Text(root,height=2, width =20)
+
+        button = tk.Button(root,text="Map",command= lambda: (self.main_window(self.selected_options),root.destroy()))
+
+        # PACK STUFF
+        self.splash_label.pack()
+        self.file_lab.pack()
+        self.splash_filename.pack()
+        self.lat_lab.pack()
+        self.lat.pack(expand=True)
+        self.long_lab.pack()
+        self.long.pack(expand=True)
+
+        button.pack()
 
 class MainFrame(tk.Frame):
 
@@ -353,7 +407,7 @@ if __name__ == '__main__':
     assert cef.__version__ >= "55.3", "CEF Python v55.3+ required to run this"
     sys.excepthook = cef.ExceptHook  # To shutdown all CEF processes on error
     root = tk.Tk()
-    app = MainFrame(root)
+    app = SplashFrame(root)
     # Tk must be initialized before CEF otherwise fatal error (Issue #306)
     cef.Initialize()
 
