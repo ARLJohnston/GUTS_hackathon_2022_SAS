@@ -50,6 +50,7 @@ class SplashFrame(tk.Frame):
 
         # Root
         root.geometry("400x500")
+        tk.Frame.__init__(self, root)
 
         # Struct
 
@@ -68,7 +69,7 @@ class SplashFrame(tk.Frame):
         self.long_lab = tk.Label(root,font=18,text="Longitude")
         self.long = tk.Text(root,height=2, width =20)
 
-        button = tk.Button(root,text="Map",command= lambda: (self.main_window(self.selected_options),root.destroy()))
+        self.button = tk.Button(root,text="Map",command= lambda: (self.main_window(self.selected_options),root.destroy()))
 
         # PACK STUFF
         self.splash_label.pack()
@@ -78,8 +79,8 @@ class SplashFrame(tk.Frame):
         self.lat.pack(expand=True)
         self.long_lab.pack()
         self.long.pack(expand=True)
-
-        button.pack()
+       
+        self.button.pack()
 
 class MainFrame(tk.Frame):
 
