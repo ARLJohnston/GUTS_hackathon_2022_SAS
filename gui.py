@@ -130,8 +130,8 @@ class MainFrame(tk.Frame):
                                 sticky=(tk.N + tk.S + tk.E + tk.W))
         tk.Grid.rowconfigure(self, 1, weight=1)
         tk.Grid.columnconfigure(self, 0, weight=1)
-        self.slider = tk.Scale(root, from_=0, to=2400, orient=tk.HORIZONTAL, length=200,)
-        self.slider.pack(anchor=tk.CENTER)
+        #self.slider = tk.Scale(root, from_=0, to=2400, orient=tk.HORIZONTAL, length=200,)
+        #self.slider.pack(anchor=tk.CENTER)
         
         # Pack MainFrame
         self.pack(fill=tk.BOTH, expand=tk.YES)
