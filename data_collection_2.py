@@ -1,3 +1,4 @@
+from certifi import where
 import data_collection as dc
 
 def get_point_time(time):
@@ -6,21 +7,21 @@ def get_point_time(time):
     student_times = student_times.drop('Time',axis=1)
     student_times['Start'] = student_times['Start'].astype(int)
     student_times['End'] = student_times['End'].astype(int)
+
    
     student_times_array = student_times.to_numpy()
     #print(student_times_array)
-    
-    
+    next_day_mask = dc.np.array(student_times_array[:,3] > student_times_array[:,4])
+    student_times_array[next_day_mask,4] += 2400
+    print(student_times_array.shape)
+    #student_times_array[:,4] = dc.np.where(,student_times_array[:,4],student_times_array[:,4]+2400)
+
     mask = dc.np.where((student_times_array[:,3] < time)&(student_times_array[:,4] > time))
-   
-    print(student_times_array[mask])
-
-  
-    #mask = dc.np.where(dc.np.all(dc.np.char.strip(student_times_array[:,3])<str(time) , dc.np.char.strip(student_times_array[:,4])>str(time)),student_times_array,None) 
-  
-    #splitted_sec = splitted_sec[mask]
-    #print(splitted_sec)
+    
+    return student_times_array[mask]
+    
 
 
-#print(dc.get_security_time())
-get_point_time(350)
+
+
+print(get_point_time(2400))
