@@ -390,8 +390,9 @@ def get_lecture():
     
 def get_sus_mask():
     sus = get_sus_people()
-    sus_mask = people_data['Student ID'].isin(sus.keys())
-    return [people_data[sus_mask], sus]
+    sus_mask = security_data['Student ID'].isin(sus.keys())
+    
+    return [security_data[~sus_mask], security_data[sus_mask]]
 
 
    
