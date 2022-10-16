@@ -34,7 +34,7 @@ def gather_student_statement_locations():
     locations = l['Location'].to_list()
     student_data = generate_students()
 
-    print(locations)
+    #print(locations)
 
     formatted_locations = []
     for location in locations:
@@ -42,37 +42,65 @@ def gather_student_statement_locations():
 
     student_statement_data = []
 
+    locations_dict = {
+        'qmu': 'queen margaret union',
+        'the union' : 'queen margaret union',
+        'the boyd orr' : 'boyd orr building',
+        'the boydy' : 'boyd orr building',
+        'the park' : 'kelvingrove park',
+        'kg' : 'kelvingrove park',
+        'kelvin grove' : 'kelvingrove park',
+        'to kelvingrove' : 'kelvingrove park',
+        'the medicine building' : 'wolfson medical building',
+        'the wolfson' : 'wolfson medical building',
+        'guu' : 'glasgow university union',
+        'the adam smith' : 'adam smith building',
+    }
+
     for data in generate_students():
         student_id = data['Student Number']
         student_locations = []
         data['Testimony'] = data['Testimony'].lower()
         for location in formatted_locations:
-            if location in data['Testimony']:
+            if location in data['Testimony'] and location not in student_locations:
                 student_locations.append(location)
-        if 'qmu' in data['Testimony']:
-            student_locations.append("queen margaret union")
-        if 'the union' in data['Testimony']:
-            student_locations.append("glasgow university union")
-        if 'the boyd orr' in data['Testimony']:
-            student_locations.append("boyd orr Building")
-        if 'the boydy' in data['Testimony']:
-            student_locations.append("boyd orr building")
-        if 'the park' in data['Testimony']:
-            student_locations.append("kelvingrove park")
-        if 'kg' in data['Testimony']:
-            student_locations.append('kelvingrove park')
-        if 'to kelvingrove' in data['Testimony']:
-            student_locations.append('kelvingrove park')
-        if 'the medicine building' in data['Testimony']:
-            student_locations.append('wolfson medical building')
-        if 'the wolfson' in data['Testimony']:
-            student_locations.append('wolfson medical building')
-        if 'kelvin grove' in data['Testimony']:
-            student_locations.append('Kelvingrove Park')
-        if 'guu' in data['Testimony']:
-            student_locations.append('glasgow university union')
-        if 'the adam smith' in data['Testimony']:
-            student_locations.append('adam smith building')
+
+
+        for key in locations_dict:
+            if key in data['Testimony'] and locations_dict[key] not in student_locations:
+                student_locations.append(locations_dict[key])
+
+    #for data in generate_students():
+    #    student_id = data['Student Number']
+    #    student_locations = []
+    #    data['Testimony'] = data['Testimony'].lower()
+    #    for location in formatted_locations:
+    #        if location in data['Testimony']:
+    #            student_locations.append(location)
+    #    if 'qmu' in data['Testimony']:
+    #        student_locations.append("queen margaret union")
+    #    if 'the union' in data['Testimony']:
+    #        student_locations.append("glasgow university union")
+    #    if 'the boyd orr' in data['Testimony']:
+    #        student_locations.append("boyd orr Building")
+    #    if 'the boydy' in data['Testimony']:
+    #        student_locations.append("boyd orr building")
+    #    if 'the park' in data['Testimony']:
+    #        student_locations.append("kelvingrove park")
+    #    if 'kg' in data['Testimony']:
+    #        student_locations.append('kelvingrove park')
+    #    if 'to kelvingrove' in data['Testimony']:
+    #        student_locations.append('kelvingrove park')
+    #    if 'the medicine building' in data['Testimony']:
+    #        student_locations.append('wolfson medical building')
+    #    if 'the wolfson' in data['Testimony']:
+    #        student_locations.append('wolfson medical building')
+    #    if 'kelvin grove' in data['Testimony']:
+    #        student_locations.append('Kelvingrove Park')
+    #    if 'guu' in data['Testimony']:
+    #        student_locations.append('glasgow university union')
+    #    if 'the adam smith' in data['Testimony']:
+    #        student_locations.append('adam smith building')
 
             #REMOVE 'WHAT IN THE BOYD ORR'
             #REMOVE 'TAKE OUT THE BOYD ORR'
