@@ -250,8 +250,7 @@ def get_student_locations(time):
     groupped_person = person_geoloc.groupby(['building','latitude', 'longitude']).size().reset_index()
     
     groupped_person.columns = ['building','latitude', 'longitude', 'size']
-    
-    groupped_person['size'] = groupped_person['size'].apply(lambda x: x)
+  
     groupped_person['color'] = 1
     groupped_person['time'] = time
     
@@ -263,7 +262,78 @@ def get_student_locations(time):
 def slider_wrapper(time):
     hours = (time // 100)*100
     minutes = ((60/100)*(time % 100))//1
-    return get_student_locations(time)
+    return get_student_locations(hours+minutes)
+
+def get_operating_time():
+    loc = location_data.copy()
+    loc[['Open', 'Close']] = location_data['Opening Times'].str.split('-', 1, expand=True).to_numpy()
+    loc['Open'] = loc['Open'].astype(int)
+    loc['Close'] = loc['Close'].astype(int)
+    next_day_mask = (loc['Open'] > loc['Close'])
+    
+    z_valid = loc[next_day_mask]
+
+    
+    loc.loc[next_day_mask, 'Close'] = z_valid['Close'] + 2400
+    
+    loc = loc.drop('Opening Times',axis=1)
+    return loc
+    
+
+def check_out_of_working_hours():
+    
+    loc = get_operating_time()
+
+    student_times = get_time_leaving()
+    main_df = pd.merge(student_times, loc, on="Location", how="left")
+    main_df['Start'] = main_df['Start'].astype(int)
+    main_df['End'] = main_df['End'].astype(int)
+
+    mask = ((main_df['Start'] >= main_df['Open']).astype(boolean) & (main_df['Close'] >= main_df['End']).astype(boolean))
+    frames = [loc,student_times]
+    result = pd.concat(frames)
+    main_df = main_df.mask(mask).dropna()
+    main_df = main_df[main_df['Location'] != 'Kelvingrove Park']
+    return main_df
+
+
+def get_overlap(student_id):
+    case = get_locations_and_times(student_id)
+    if case is None:
+        return None
+    times = case[:, 1]
+
+    time_list = []
+    for time in times:
+        time_split = time.split('-')
+        time_list.append(time_split)
+
+    time_list.sort(key=lambda row: (int(row[0])))
+    #print(time_list)
+    entries = []
+    leaves = []
+    for i in time_list:
+        entries.append(int(i[0]))
+        leaves.append(int(i[1]))
+    last_left = 0
+    for i in range(len(entries)):
+        if entries[i] < last_left:
+            print(True)
+            return True
+        last_left = leaves[i]
+    
+def get_sus_people():
+
+    sus_set = set()
+    for i in enumerate(people_data['Student ID']):
+        
+        if get_overlap(i[1]):
+
+            sus_set.add(i[1])
+    new_sus = check_out_of_working_hours()['Student ID']
+    for i in new_sus:
+        sus_set.add(i)
+    return sus_set
 
 #if __name__ == "__main__":
 #    #tests
