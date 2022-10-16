@@ -253,6 +253,7 @@ def get_student_locations(time):
     
     groupped_person.columns = ['building','latitude', 'longitude', 'size']
   
+    groupped_person['size'] = groupped_person['size'].apply(lambda x: x)
     groupped_person['color'] = 1
     groupped_person['time'] = time
     

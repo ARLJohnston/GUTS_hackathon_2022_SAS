@@ -108,7 +108,7 @@ def gather_student_statement_locations():
 
         student_statement_data.append({student_id : student_locations})
 
-    print(student_statement_data)
+    #print(student_statement_data)
     return student_statement_data
 
 def format_locations(locations):
@@ -122,5 +122,27 @@ def get_location_list(student_id):
         return student_id.get(key[0])
     return student_id
 
-data = gather_student_statement_locations()
+def get_student_statement_at_location(location):
+    location = location.lower()
+    data = gather_student_statement_locations()
+
+    student_IDs = []
+    #print(type(data[0]['boydy']))
+    for dictionary in data:
+        #print(dictionary)
+        for k,v in dictionary.items():
+            #print(k, v)
+            if location in v and k not in student_IDs:
+                student_IDs.append(k)
+
+    statements = []
+    for dictionary in generate_students():
+        if dictionary['Student Number'] in student_IDs:
+            statements.append(dictionary)
+    return statements
+
+if __name__ == '__main__':
+    #data = gather_student_statement_locations()
+    #print(generate_students())
+    print(get_student_statement_at_location('boyd orr building'))
 
