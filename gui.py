@@ -1,4 +1,5 @@
 import os
+from tkinter import EventType
 from cefpython3 import cefpython as cef
 import ctypes
 
@@ -10,6 +11,7 @@ import sys
 import os
 import platform
 import logging as _logging
+import student_statements as ss
 
 # Fix for PyCharm hints warnings
 WindowUtils = cef.WindowUtils()
@@ -47,12 +49,27 @@ class SplashFrame(tk.Frame):
        
         self.button.pack()
 
+class PopupFrame(tk.Frame):
+    def __init__(self,root):
+        root.geometry("200x200")
+        tk.Frame.__init__(self,root)
+
+        self.stud_list = tk.messagebox.showinfo("List of people in this building",self._get_statements())
+        self.stud_list.pack()
+
+    def _get_statements(self):
+        return ss.get_student_statement_at_location()[3]
+
 def run_mainwindows(prev_root):
     prev_root.destroy()
     root = tk.Tk()
     root.title("CEF Python")
     
     
+    def onclick(event):
+        x = variable.get()
+
+        return x 
     app = MainFrame(root)
     OPTIONS = [
         'Boyd Orr Building',
@@ -72,8 +89,11 @@ def run_mainwindows(prev_root):
     ]
     variable = tk.StringVar(root)
     variable.set(OPTIONS[0])  # default value
-    w = tk.OptionMenu(root, variable, *OPTIONS)
+    w = tk.OptionMenu(root, variable, *OPTIONS,command=onclick)
     w.pack()
+
+    
+
     # Tk must be initialized before CEF otherwise fatal error (Issue #306)
     cef.Initialize()
     app.mainloop()
@@ -296,7 +316,8 @@ class NavigationBar(tk.Frame):
         tk.Frame.__init__(self, master)
         resources = os.path.join(os.path.dirname(__file__), "resources")
 
-        # Back button
+        # Back button/home/miguel/Documents/GUTS/GUTS_hackathon_2022_SAS
+
         back_png = os.path.join(resources, "back" + IMAGE_EXT)
         if os.path.exists(back_png):
             self.back_image = tk.PhotoImage(file=back_png)
@@ -409,7 +430,7 @@ if __name__ == '__main__':
     assert cef.__version__ >= "55.3", "CEF Python v55.3+ required to run this"
     sys.excepthook = cef.ExceptHook  # To shutdown all CEF processes on error
     root = tk.Tk()
-    app = SplashFrame(root)
+    app = MainFrame(root)
     # Tk must be initialized before CEF otherwise fatal error (Issue #306)
     cef.Initialize()
 
