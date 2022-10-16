@@ -27,29 +27,10 @@ logger = _logging.getLogger("tkinter_.py")
 IMAGE_EXT = ".png" if tk.TkVersion > 8.5 else ".gif"
 
 class SplashFrame(tk.Frame):
-    def find_files(self,x) -> list:
-        for file in os.listdir(os.getcwd()):
-            if file.endswith(".txt"):
-                x.insert(tk.END,file)
-
-        return x
-
-    def selected_options(self):
-        selected = []
-        for select in self.splash_filename.curselection():
-            selected.append(self.splash_filename.get(select))
-
-        lt = self.lat.get(1.0,tk.END)
-        lng = self.long.get(1.0,tk.END)
-
-        selected.append(lt)
-        selected.append(lng)
-
-        return selected
     def __init__(self,root):
 
         # Root
-        root.geometry("400x500")
+        root.geometry("50x50")
         tk.Frame.__init__(self, root)
 
         # Struct
@@ -57,32 +38,16 @@ class SplashFrame(tk.Frame):
         self.splash_label = tk.Label(root,font=18)
 
 
-        self.file_lab = tk.Label(root,font=18,text="Select files to import: ")
 
-        self.splash_filename = tk.Listbox(root,selectmode="multiple",height=10)
-
-        self.find_files(self.splash_filename)
-
-
-        self.lat_lab = tk.Label(root,font=18,text="Latitude")
-        self.lat = tk.Text(root,height = 2, width=20)
-        self.long_lab = tk.Label(root,font=18,text="Longitude")
-        self.long = tk.Text(root,height=2, width =20)
-
-        self.button = tk.Button(root,text="Map",command= lambda:run_mainwindows(self.selected_options(),root))
+        self.button = tk.Button(root,text="Map",command= lambda:run_mainwindows(root))
 
         # PACK STUFF
         self.splash_label.pack()
-        self.file_lab.pack()
-        self.splash_filename.pack()
-        self.lat_lab.pack()
-        self.lat.pack(expand=True)
-        self.long_lab.pack()
-        self.long.pack(expand=True)
+        
        
         self.button.pack()
 
-def run_mainwindows(selection,prev_root):
+def run_mainwindows(prev_root):
     prev_root.destroy()
     root = tk.Tk()
     root.title("CEF Python")
