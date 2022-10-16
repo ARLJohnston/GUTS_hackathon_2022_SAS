@@ -1,5 +1,4 @@
 from statistics import mode
-from turtle import color
 import plotly.graph_objects as go
 import plotly.express as px
 
@@ -15,11 +14,9 @@ df = pd.DataFrame(columns=["building","latitude", "longitude", "color", "size", 
 df["size"] = df["size"].astype(int)
 
 while(time<2400):
+   df = pd.concat([df,dc.slider_wrapper(time)], axis = 0) 
     
-    
-    df = df.append(dc.slider_wrapper(time), ignore_index=True)
-    
-    time += time_step
+   time += time_step
 
 fig=px.scatter_mapbox(df,
 
