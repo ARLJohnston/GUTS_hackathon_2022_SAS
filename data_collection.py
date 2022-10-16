@@ -341,16 +341,17 @@ def get_sus_people():
             
     new_sus = check_out_of_working_hours()['Student ID']
     for i in new_sus:
-        if(i[1] not in sus_set):
-            sus_set[i[1]] = 0
-        sus_set[i[1]] += 1
+        print('helooooo',i)
+        if(i not in sus_set):
+            sus_set[i] = 0
+        sus_set[i] += 1
 
     new_new_sus = get_lecture()
-    print(new_new_sus)
+    #print(new_new_sus)
     for i in enumerate(new_new_sus['Student ID']):
-        print(i)
+        
+        print('heyyy!!!!',i)
         if(i[1] not in sus_set):
-
             sus_set[i[1]] = 0
         sus_set[i[1]] += 1
     return sus_set
@@ -360,7 +361,7 @@ def get_lecture():
     lecture_data['Start'] = lecture_data['Start'].astype(int)
     lecture_data['End'] = lecture_data['End'].astype(int)
     
-    print(lecture_data)
+    #print(lecture_data)
 
     student_times = get_time_leaving()
     
@@ -386,12 +387,19 @@ def get_lecture():
     #print(main_df[['Start_x','End_x','Start_y','End_y','Student ID','Lecture']])
     return main_df
     
+def get_sus_mask():
+    sus = get_sus_people()
+    sus_mask = people_data['Student ID'].isin(sus.keys())
+    return [people_data[sus_mask], sus]
+
+
    
 
 
 if __name__ == "__main__":
    #tests
-    print(get_sus_people())
+    #print(get_sus_people())
     #get_lecture()
+    print(get_sus_mask())
 
 get_student_locations(1030)
