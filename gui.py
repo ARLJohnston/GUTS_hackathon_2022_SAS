@@ -1,5 +1,9 @@
 import os
-from tkinter import EventType
+import sys
+if(sys.version_info[0] == 3 and sys.version_info[1] > 8):
+    print("CEFPython3 does not currently support python version ", sys.version_info[0],".",sys.version_info[1],".",sys.version_info[2], " please use a python version before 3.9")
+    quit()
+
 from cefpython3 import cefpython as cef
 import ctypes
 
@@ -7,8 +11,6 @@ try:
     import tkinter as tk
 except ImportError:
     import Tkinter as tk
-import sys
-import os
 import platform
 import logging as _logging
 import student_statements as ss

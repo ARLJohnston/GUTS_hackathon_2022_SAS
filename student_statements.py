@@ -123,6 +123,7 @@ def get_location_list(student_id):
     return student_id
 
 def get_student_statement_at_location(location):
+    location = location.lower()
     data = gather_student_statement_locations()
 
     student_IDs = []
