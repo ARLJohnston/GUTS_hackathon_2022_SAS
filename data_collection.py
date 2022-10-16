@@ -1,3 +1,4 @@
+from ast import main
 from calendar import c
 import pandas as pd
 import numpy as np
@@ -319,7 +320,7 @@ def get_overlap(student_id):
     last_left = 0
     for i in range(len(entries)):
         if entries[i] < last_left:
-            print(True)
+          
             return True
         last_left = leaves[i]
 def get_time_leaving():
@@ -330,15 +331,28 @@ def get_time_leaving():
     
 def get_sus_people():
 
-    sus_set = set()
+    sus_set = dict()
     for i in enumerate(people_data['Student ID']):
         
         if get_overlap(i[1]):
-
-            sus_set.add(i[1])
+            if(i[1] not in sus_set):
+                sus_set[i[1]] = 0
+            sus_set[i[1]] += 1
+            
     new_sus = check_out_of_working_hours()['Student ID']
     for i in new_sus:
-        sus_set.add(i)
+        if(i[1] not in sus_set):
+            sus_set[i[1]] = 0
+        sus_set[i[1]] += 1
+
+    new_new_sus = get_lecture()
+    print(new_new_sus)
+    for i in enumerate(new_new_sus['Student ID']):
+        print(i)
+        if(i[1] not in sus_set):
+
+            sus_set[i[1]] = 0
+        sus_set[i[1]] += 1
     return sus_set
 
 def get_lecture():
@@ -369,7 +383,7 @@ def get_lecture():
     main_df = main_df.mask(mask).dropna()
     main_df = main_df.mask(mask2).dropna()
     #main_df = main_df.groupby('Student ID').size()
-    
+    #print(main_df[['Start_x','End_x','Start_y','End_y','Student ID','Lecture']])
     return main_df
     
    
@@ -377,7 +391,7 @@ def get_lecture():
 
 if __name__ == "__main__":
    #tests
-   #print(get_sus_people())
-    get_lecture()
+    print(get_sus_people())
+    #get_lecture()
 
 get_student_locations(1030)
