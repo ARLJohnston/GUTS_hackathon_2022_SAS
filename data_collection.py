@@ -7,6 +7,7 @@ from certifi import where
 location_data = pd.read_csv("location_data.csv", on_bad_lines='warn')
 people_data = pd.read_csv("people_data.csv", on_bad_lines='warn')
 security_data = pd.read_csv("security_logs.csv", on_bad_lines='warn')
+lecture_data = pd.read_csv("lecture_timing.csv", on_bad_lines='warn')
 
 main_data = security_data.merge(people_data, on=['Student ID'])
 location_data.rename(columns={'Building Name': 'Location'}, inplace=True)
@@ -340,9 +341,43 @@ def get_sus_people():
         sus_set.add(i)
     return sus_set
 
+def get_lecture():
+
+    lecture_data['Start'] = lecture_data['Start'].astype(int)
+    lecture_data['End'] = lecture_data['End'].astype(int)
+    
+    print(lecture_data)
+
+    student_times = get_time_leaving()
+    
+    main_df = pd.merge(student_times, lecture_data, on="Location", how="left")
+    main_df = pd.merge(main_df,people_data, on="Student ID", how="left")
+    main_df = main_df.dropna()
+
+
+    main_df = main_df[main_df['Lecture'] != None]
+    main_df['Start_x'] = main_df['Start_x'].astype(int)
+    main_df['End_x'] = main_df['End_x'].astype(int)
+    main_df['Start_y'] = main_df['Start_y'].astype(int)
+    main_df['End_y'] = main_df['End_y'].astype(int)
+
+ 
+ 
+
+    mask = (((main_df['Start_x'] <= main_df['Start_y']).astype(bool) & (main_df['End_x'] <= main_df['End_y']).astype(bool)) |((main_df['Start_x'] >= main_df['Start_y']).astype(bool) & (main_df['End_x'] >= main_df['End_y']).astype(bool)))
+    mask2 = ((main_df['Subject'] == main_df['Lecture']).astype(bool))
+    main_df = main_df.mask(mask).dropna()
+    main_df = main_df.mask(mask2).dropna()
+    #main_df = main_df.groupby('Student ID').size()
+    
+    return main_df
+    
+   
+
+
 if __name__ == "__main__":
    #tests
-   print(get_sus_people())
-
+   #print(get_sus_people())
+    get_lecture()
 
 get_student_locations(1030)
