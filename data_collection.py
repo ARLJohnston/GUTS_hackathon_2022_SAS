@@ -195,7 +195,7 @@ def get_point_time(time):
     # print(student_times_array)
     next_day_mask = np.array(student_times_array[:, 3] > student_times_array[:, 4])
     student_times_array[next_day_mask, 4] += 2400
-    print(student_times_array.shape)
+    #print(student_times_array.shape)
     # student_times_array[:,4] = dc.np.where(,student_times_array[:,4],student_times_array[:,4]+2400)
 
     mask = np.where((student_times_array[:, 3] < time) & (student_times_array[:, 4] > time))
