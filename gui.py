@@ -54,6 +54,26 @@ def run_mainwindows(prev_root):
     
     
     app = MainFrame(root)
+    OPTIONS = [
+        'Boyd Orr Building',
+        'James Watt Building',
+        'Adam Smith Building',
+        'Main Building',
+        'Wolfson Medical Building',
+        'Glasgow University Union',
+        'The Hive',
+        'Sir Alwyn Williams Building',
+        'Library',
+        'Queen Margaret Union',
+        'St Andrews Building',
+        'Kelvingrove Park',
+        'Joseph Black Building',
+        'Kelvin Building'
+    ]
+    variable = tk.StringVar(root)
+    variable.set(OPTIONS[0])  # default value
+    w = tk.OptionMenu(root, variable, *OPTIONS)
+    w.pack()
     # Tk must be initialized before CEF otherwise fatal error (Issue #306)
     cef.Initialize()
     app.mainloop()
