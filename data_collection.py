@@ -392,7 +392,10 @@ def get_sus_mask():
     sus = get_sus_people()
     sus_mask = security_data['Student ID'].isin(sus.keys())
     
-    return [security_data[~sus_mask], security_data[sus_mask]]
+    security_data[['sus']] = 0
+    security_data.loc[sus_mask, 'sus'] = 1
+    security_data.drop('Time',axis=1)
+    return security_data
 
 
    
