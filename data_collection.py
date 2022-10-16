@@ -289,7 +289,7 @@ def check_out_of_working_hours():
     main_df['Start'] = main_df['Start'].astype(int)
     main_df['End'] = main_df['End'].astype(int)
 
-    mask = ((main_df['Start'] >= main_df['Open']).astype(boolean) & (main_df['Close'] >= main_df['End']).astype(boolean))
+    mask = ((main_df['Start'] >= main_df['Open']).astype(bool) & (main_df['Close'] >= main_df['End']).astype(bool))
     frames = [loc,student_times]
     result = pd.concat(frames)
     main_df = main_df.mask(mask).dropna()
@@ -321,6 +321,11 @@ def get_overlap(student_id):
             print(True)
             return True
         last_left = leaves[i]
+def get_time_leaving():
+    student_times = security_data.copy()
+    student_times[['Start', 'End']] = student_times['Time'].str.split('-', 1, expand=True).to_numpy()
+    student_times = student_times.drop('Time', axis=1)
+    return student_times
     
 def get_sus_people():
 
@@ -335,9 +340,9 @@ def get_sus_people():
         sus_set.add(i)
     return sus_set
 
-#if __name__ == "__main__":
-#    #tests
-#    get_students_under_age(18, 'Main Building')
-#
+if __name__ == "__main__":
+   #tests
+   print(get_sus_people())
+
 
 get_student_locations(1030)
